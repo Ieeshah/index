@@ -1,5 +1,0 @@
-BrightTag.site('st0IEwU',function(s){
-s.script('https://s.yimg.jp/images/listing/tool/cv/ytag.js').wait(function(){
-s.tag('\x3cscript type\x3d\x22text/javascript\x22\x3e\n          yjDataLayer \x3d window.yjDataLayer || [];\n\n          function ytag() {\n            yjDataLayer.push(arguments);\n          }\n\n          ytag({\x22type\x22:\x22ycl_cookie\x22});\n      \x3c/script\x3e',{tagId:-3});
-});
-});
