@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
     <script src="bootstrap/bootstrap1/js/bootstrap.bundle.min.js"></script>
     <meta charset="UTF-8">
@@ -10,19 +11,125 @@
     <title>Asana</title>
     <style>
         *{
-            margin: 20px;
-            padding: 0;
+            margin: 0%;
+            padding: 0%;
             box-sizing: border-box;
         }
-        h1{
-            font-size: 44px;
+        .A{
+            margin: 50px;
+            margin-top: 80px;
+            margin-bottom: 30px;
+            
+        }
+        .trust h1{
+            font-size: 64px;
             font-family: 'Times New Roman', Times, serif;
             font-weight: 0px;
-            height: 56px;
+            
         }
-        p{
+
+        .trust{
+            margin: auto;
+
+            
+        }
+        .trust p{
             font-size: 24px;
             font-family: 'Times New Roman', Times, serif;
+            padding-top: 30px;
+            padding-bottom: 20px;
+        }
+        .group1{
+            margin: auto;
+            width: 800px;
+            margin-top: 50px;
+            margin-bottom: 30px;
+
+        }
+        span{
+            font-size: 12px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #868687;
+            margin-top: 30px;
+        }
+        .group1 p{
+            font-size: 28px;
+        }
+        h3{
+            font-size: 20px;
+        }
+        .group3 p{
+            font-size: 16px;
+            
+            width: 250px;
+            padding-bottom: 20px;
+            
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            padding-top: 60px;
+            font-weight: 600;
+            padding-bottom: 40px;
+        }
+        .group4{
+            margin: 40px;
+        }
+        .group4 p{
+            font-size: 28px;
+            margin: auto;
+            text-align: center;
+            max-width: 100%;
+            max-height: 100%;
+
+            
+            
+
+        }
+        .group5 p{
+            font-size: 17px;
+            width: 350px;
+            margin-bottom: 70px;
+            
+        }
+        .group6 p{
+            font-size: 28px;
+        }
+        .group7 p{
+            font-size: 17px;
+        }
+        .group8 p{
+            font-size: 28px;
+            margin: auto;
+            width: 75%; 
+            padding-bottom: 30px;
+        }
+        .group9 p{
+            font-size: 17px;
+          
+            width: 250px;
+        }
+        .group17 p{
+            font-size: 28px !important;
+            margin: auto !important;
+            width: 76% !important;
+        }
+        .group10{
+            margin-top: 50px;
+            background-color: #F5F3F3;
+        
+        }
+        .group10 p{
+            font-size: 18px;
+            width: 245px;
+        }
+        .group12 h4{
+            font-size: 20px;
+            width: 90%;
+        }
+        .group12{
+            margin: 20px;
+            padding: 3px;
         }
         .get{
             color: white;
@@ -41,10 +148,14 @@
             width: 10rem;
 
         }
+
         h2{
-            font-family: sans-serif;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size: 36px;
-            
+            word-spacing: 2px;
+        }
+       .group2 p{
+            font-size: 28px;
         }
         .group1, .group2, .group4, .group6, .group8, .group17{
             text-align: center;
@@ -99,7 +210,7 @@
         .group16{
             background-color: black;
             color: white;
-            margin-left: 30px;
+            
             padding: 0;
             
 
@@ -112,14 +223,44 @@
         }
         li{
             list-style-type: none;
-            padding: 20px;
+            
         }
     </style>
 </head>
 <body>
-    <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg" style="background-color: #FFFFFF;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="image/asanalogo.PNG" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="mongodb.html">Mongodb</a>
+              </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="asan.html">Asana</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              
+              <button class="btn" type="submit">Contact sales</button>
+              <button class="btn" type="submit">Login</button>
+              <button class="btn" style="background-color: black; color: white;" type="submit">Get started</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <div class="container A">
         <div class="row">
-            <div class="col sm-6">
+            <div class="col sm-5 trust mx-auto">
                 <h1>Trust at Asana</h1>
                 <p>More than 100,000 of the world's
                     most innovative enterprises trust Asana
@@ -128,19 +269,47 @@
                     <button class="contact">Contact Sales</button>
 
             </div>
-            <div class="col sm-6">
-                <img src="" alt="">
+            <div class="col sm-5">
+                <img src="image/asana.PNG" alt="#" style="width: 500px;">
             </div>
         </div>
     </div>
-    <div class="group1">
-        <h2>Loved by millions of users in the largest organizations <br>
-            around the world</h2>
+    <div class="container mx-auto group1">
+        <h2>Loved by millions of users in the largest organizations around the world</h2>
             <p>More than 80% of Fortune 100 companies use Asana*</p>
     </div>
-    <div>
-        <img src="" alt="">
-    </div>
+    <!-- <div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col sm-2">
+                    <img src="image/amazon.PNG" alt="#">
+                </div>
+                <div class="col sm-2">
+                    <img src="image/pg.PNG" alt="#">
+                </div>
+                <div class="col sm-2">
+                    <img src="image/accenture.PNG" alt="#">
+                </div>
+                <div class="col sm-2">
+                    <img src="image/japan.PNG" alt="#">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col sm-2">
+                    <img src="image/kohl.PNG" alt="#">
+                </div>
+                <div class="col-sm-3">
+                    <img src="image/xero.PNG" alt="#">
+                </div>
+                <div class="col-sm-3">
+                    <img src="image/armor.PNG" alt="#">
+                </div>
+                <div class="col-sm-2">
+                    <img src="image/paypal.PNG" alt="#">
+                </div>
+            </div>
+        </div>
+    </div> -->
     <div class="group2">
         <span>BENEFITS</span>
         <h2>How Asana Earn Trust</h2>
@@ -149,56 +318,63 @@
 
 
     <div class="group3">
-        <div class="container-fluid">
+        <div class="container" >
             <div class="row">
                 <div class="col sm-3">
+                    <img src="image/security.PNG" alt="#" style="width: 80px;">
                     <h3>Security</h3>
                     <p>Data protection is key to support
                         teams’ success, so we incorporate
                         security into our product and
                         operations.</p>
-                        <a href="#">Learn More</a>
+                        <a href="#">Learn More<i class="bi bi-arrow-right-short"></i></a>
                 </div>
                 <div class="col sm-3">
+                    <img src="image/reliabilty.PNG" alt="#" style="width: 70px;">
                     <h3>Reliability</h3>
                     <p>We invest in our infrastructure to
                         support deployments of 100 or
                         100,000 and beyond.</p>
-                    <a href="#">Learn More</a>
+                    <a href="#">Learn More<i class="bi bi-arrow-right-short"></i></a>
                 </div>
                 <div class="col sm-3">
+                    <img src="image/asanaprivacy.PNG" alt="#" style="width: 90px;">
                     <h3>Privacy</h3>
                     <p>We're committed to protecting
                         your privacy through our product,
                         infrastructure, and data
                         governance.</p>
-                        <a href="#">Learn More</a>
+                        <a href="#">Learn More<i class="bi bi-arrow-right-short"></i></a>
                 </div>
                 <div class="col sm-3">
+                    <img src="image/compliance.PNG" alt="#" style="width: 80px;">
                     <h3>Compliance</h3>
                     <p>We adhere to global, regional, and
                         industry regulations to help you
                         meet compliance standards.</p>
-                        <a href="#">Learn More</a>
+                        <a href="#">Learn More<i class="bi bi-arrow-right-short"></i></a>
                 </div>
             </div>
         </div>
     </div>
 
 
-    <div class="group4">
+    <div class="container group4 mx-auto">
         <span>SECURITY</span>
         <h2>Protect your work</h2>
-        <p>Asana takes a security-by-design approach to protecting your data. We build our <br> platform using best practices for highly available, scalable, and secure cloud <br> applications.</p>
+        <p>Asana takes a security-by-design approach to protecting your data.
+             We build our platform using best practices for highly available, 
+             scalable, and secure cloud applications.</p>
     </div>
 
 
 
 
     <div class="group5">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col sm-4">
+                    <img src="image/infrastructure.PNG" alt="#">
                     <h3>Security infrastructure</h3>
                     <p>Asana’s infrastructure is designed with layers
                         of protection to help ensure your data is
@@ -207,6 +383,7 @@
                         access, secure software development, and a<u>public blog bounty programme</u>.</p>
                 </div>
                 <div class="col sm-4">
+                    <img src="image/operational.PNG" alt="#">
                     <h3>Operational Security</h3>
                     <p>Our information security team continuously
                         implements new security controls and
@@ -215,6 +392,7 @@
                         devices.</p>
                 </div>
                 <div class="col sm-4">
+                    <img src="image/product.PNG" alt="">
                     <h3>Product Security</h3>
                     <p>Asana provides a robust set of in-product data
                         protection and <u>admin controls</u> for greater
@@ -236,9 +414,10 @@
 
 
     <div class="group7">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col sm-6">
+                    <img src="image/uptime.PNG" alt="">
                     <h3>Uptime and availability</h3>
                     <p>Asana offers 24/7 priority support and a 99.9% uptime commitment to
                         Enterprise customers, and provides transparency into real-time and
@@ -246,6 +425,7 @@
 
                 </div>
                 <div class="col sm-6">
+                    <img src="image/business.PNG" alt="">
                     <h3>Business Continuity</h3>
                     <p>Asana’s infrastructure investments provide daily backups, regional
                         backups, and <u>recovery procedure</u> for restoring services in the event of unavoidable failures.</p>
@@ -262,23 +442,25 @@
         <p>We have a comprehensive privacy compliance program that aligns our practices
             with regulations such as the General Data Protection Regulation and California
             Consumer Privacy Act.</p>
-            <a href="#">Read More On Privacy</a>
+            <a href="#">Read More On Privacy<i class="bi bi-arrow-right-short"></i></a>
     </div>
 
 
     <div class="group9">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col sm-3">
+                    <img src="image/control.PNG" alt="">
                     <h3>Privacy Control</h3>
-                    <p>Asana provides in-product <u>admin controls</u>
-                        , both user and objectlevel
+                    <p>Asana provides in-product <u>admin controls</u>,
+                         both user and object level
                         permissions, and the ability
                         to define which third-party
                         applications are accessible to
                         your team.</p>
                 </div>
                 <div class="col sm-3">
+                    <img src="image/governance.PNG" alt="">
                     <h3>Data Governance</h3>
                     <p>Asana allows customers to export
                         and delete data at the
@@ -287,7 +469,8 @@
 
                 </div>
                 <div class="col sm-3">
-                    <h3>data Residency</h3>
+                    <img src="image/residency.PNG" alt="">
+                    <h3>Data Residency</h3>
                     <p>Asana offers global data residency
                         options with data centers in <u>Europe</u>
                         , <u>Australia</u> and <u>Japan</u> so
@@ -295,13 +478,13 @@
                         where their data is stored.</p>
                 </div>
                 <div class="col sm-3">
+                    <img src="image/key.PNG" alt="">
                     <h3>Enterprise Key Management</h3>
                     <p>Gain more control over your data
                         and meet your organization’s
                         most critical compliance needs by
                         using your <u>own encryption key</u> on
                         information stored in Asana.</p>
-                        <a href="#">Learn more</a>
                 </div>
             </div>
         </div>
@@ -309,7 +492,7 @@
 
 
 
-    <div class="group10">
+    <div class="container-fluid group10">
         <div class="group17">
             <span>COMPLIANCE</span>
         <h2>Certifications and attestations</h2>
@@ -317,34 +500,35 @@
         </div>
         
             <div class="group11">
-                <div class="container-fluid">
+                <div class="container">
                     <div class="row">
                         <div class="col sm-3">
+                            <img src="image/soc.PNG" alt="">
                             <h3>SOC 2(TYPE 2)</h3>
                             <p>Security, availability, and
                                 confidentiality trust services
                                 criteria</p>
-                                <a href="#">Contact Asana</a>
+                                <a href="#">Read documentation<i class="bi bi-arrow-right-short"></i></a>
                         </div>
                         <div class="col sm-3"> 
+                            <img src="image/soc.PNG" alt="">
                             <h3>SOC 3</h3>
                             <p>Overview of Service Organization
                                 Controls</p>
-                            <a href="#">Read documentation</a>
+                            <a href="#">Read documentation<i class="bi bi-arrow-right-short"></i></a>
                         </div>
-                        
-                    
                         <div class="col sm-3">
+                            <img src="image/gdpr.PNG" alt="">
                             <h3>GDPR</h3>
                             <p>Data protection and data subject
                             rights for EU residents</p>
-                            <a href="">Read documentation</a>
+                            <a href="">Read documentation<i class="bi bi-arrow-right-short"></i></a>
                         </div>
                         <div class="col sm-3">
+                            <img src="image/ccpa.PNG" alt="">
                             <h3>CCPA</h3>
-                            <p>Data protection and data subject
-                            rights for EU residents</p>
-                            <a href="#">Read documentation</a>
+                            <p>Privacy rights and consumer protection for California residents</p>
+                            <a href="#">Read documentation<i class="bi bi-arrow-right-short"></i></a>
                         </div>
                     </div>
                 </div>
@@ -352,66 +536,75 @@
                 <div class="container">
                     <div class="row">
                         <div class="col sm-3">
+                            <img src="image/iso.PNG" alt="">
                             <h3>ISO/IEC 27001:2013</h3>
                             <p>Global standard for information
                                 security management systems</p>
-                                <a href="#">Read documentation</a> 
+                                <a href="#">Read documentation<i class="bi bi-arrow-right-short"></i></a> 
                         </div>
                         <div class="col sm-3"> 
+                            <img src="image/iso.PNG" alt="">
                             <h3>ISO/IEC 27017:2015</h3>
                             <p>Code of practice for information
                                 security controls for cloud
                                 services</p>
-                            <a href="#">Read documentation</a>
+                            <a href="#">Read documentation<i class="bi bi-arrow-right-short"></i></a>
                         </div>
-                        
-                    
                         <div class="col sm-3">
+                            <img src="image/iso.PNG" alt="">
                             <h3>ISO/IEC 27018:2019</h3>
                             <p>Code of practice for protecting
                                 personally identifiable information
                                 (PII)</p>
-                            <a href="">Read documentation</a>
+                            <a href="">Read documentation<i class="bi bi-arrow-right-short"></i></a>
                         </div>
 
                         <div class="col sm-3">
+                            <img src="image/iso.PNG" alt="">
                             <h3>ISO/IEC 27701:2019</h3>
-                            <p>Privacy information management
-                                standard supporting compliance
-                                with global privacy laws</p>
-                            <a href="#">Read documentation</a>
+                            <p>Privacy information management standard supporting compliance with global privacy laws</p>
+                            <a href="#">Read documentation<i class="bi bi-arrow-right-short"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="container-fluid">
+                <div class="container">
                     <div class="row">
-                        <div class="col sm-3">
-                            <h3>GLBA</h3>
-                            <p>Privacy Rule and Safeguards Rule
-                                for financial institutions</p>
-                                <a href="#">Read documentation</a>
+                        <div class="col-sm-3">
+                            <img src="image/sta.PNG" alt="">
+                            <h3>CSA STAR Level 1</h3>
+                            <p>Cloud security controls compliance self-assessment</p>
+                            <a href="#">Read documentation<i class="bi bi-arrow-right-short"></i></a>
                         </div>
-                        <div class="col sm-3"> 
-                            <h3>FERPA</h3>
-                            <p>Privacy rights for educational
-                                information and records</p>
-                            <a href="#">Read documentation</a>
-                        </div>
-                        
-                    
                         <div class="col sm-3">
+                            <img src="image/hippa.PNG" alt="">
                             <h3>HIPAA</h3>
                             <p>Protection of patient health
                                 information in the United States</p>
-                            <a href="">Read documentation</a>
+                            <a href="">Read documentation<i class="bi bi-arrow-right-short"></i></a>
                         </div>
 
                         <div class="col sm-3">
+                            <img src="image/glba.PNG" alt="">
+                            <h3>GLBA</h3>
+                            <p>Privacy Rule and Safeguards Rule for financial institutions</p>
+                                <a href="#">Read documentation<i class="bi bi-arrow-right-short"></i></a>
+                        </div>
+                        <div class="col sm-3"> 
+                            <img src="image/ferpa.PNG" alt="">
+                            <h3>FERPA</h3>
+                            <p>Privacy rights for educational information and records</p>
+                                <a href="#">Read documentation<i class="bi bi-arrow-right-short"></i></a>
+                        </div>
+                    </div>
+                
+                    <div class="row">
+                        <div class="col-sm-3">
+                        <img src="image/appi.PNG" alt="">
                             <h3>APPI</h3>
                             <p>Protection of the personal
                                 information for residents of Japan</p>
-                            <a href="#">Read documentation</a>
+                            <a href="#">Read documentation<i class="bi bi-arrow-right-short"></i></a>
                         </div>
                     </div>
                 </div>
@@ -422,12 +615,13 @@
 
 
     <div class="group12">
-        <h4>Learn more about Trust</h4>
+        <h4 class="container">Learn more about Trust</h4>
         <div class="group13">
-            <div class="container-fluid"> 
+            <div > 
                 <div class="row">
                     <div class="col sm-3">
-                        <img src="" alt="">
+                        <a href=""><img src="image/work.PNG" alt=""></a>
+                        <br>
                         <a href="#">Ebook</a>
                         <h4>Work management
                             buyer's guide</h4>
@@ -436,7 +630,8 @@
 
                     </div>
                     <div class="col sm-3">
-                        <img src="" alt="">
+                        <a href=""><img src="image/better.PNG" alt=""></a>
+                        <br>
                         <a href="#">Blog</a>
                         <h4>Security and
                             compliance: better
@@ -446,7 +641,8 @@
 
                     </div>
                     <div class="col sm-3">
-                        <img src="" alt="">
+                        <a href=""><img src="image/meet.PNG" alt=""></a>
+                        <br>
                         <a href="#">Blog</a>
                         <h4>Meet Asana's security
                             team</h4>
@@ -455,7 +651,8 @@
 
                     </div>
                     <div class="col sm-3">
-                        <img src="" alt="">
+                        <a href=""><img src="image/stable.PNG" alt=""></a>
+                        <br>
                         <a href="#">Blog</a>
                         <h4>How Asana ships stable
                             web application
@@ -476,21 +673,21 @@
         <h2>More on Asana Security</h2>
         <p>Take a deeper dive into Asana’s security practices and philosophy by downloading our trust and security
             whitepaper today.</p>
-            <button class="paper">Get the paper white</button>
+            <button ass="paper">Get the paper white</button>
             <button class="sales">Contact Sales</button>
     </div>
 
 
     <div class="group15">
-        <h6>*Accurate as of <u>September 7, 2021.</u>Asana makes no representations about updating this number.</h6>
+        <h6>*Accurate as of <u>September 7, 2022.</u>Asana makes no representations about updating this number.</h6>
     </div>
 
 
 
     <div class="group16">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
-                <div class="col-sm-0">
+                <div class="col-sm-2">
 
                 </div>
                 <div class="col-sm-2">
