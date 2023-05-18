@@ -284,7 +284,10 @@
    font-size: 18px;
    margin-top: 10px;
 }
-
+.G{
+   margin: auto;
+   width: 1400px;
+}
 .G a {
    text-decoration: none;
    color: black;
