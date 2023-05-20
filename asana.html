@@ -5,226 +5,156 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
     <script src="bootstrap/bootstrap1/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="asana.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Asana</title>
     <style>
-        *{
-            margin: 0%;
-            padding: 0%;
-            box-sizing: border-box;
-        }
-        .A{
-            margin: 50px;
-            margin-top: 80px;
-            margin-bottom: 30px;
-            
-        }
-        .trust h1{
-            font-size: 64px;
-            font-family: 'Times New Roman', Times, serif;
-            font-weight: 0px;
-            
-        }
+         @media screen and (max-width :992px){
+            h1{
+                color: blue;
+            }
+            p{
+                color: blue;
+            }
+            .get{
+                color: white;
+                background-color: black;
+                border: 2px black solid;
+                border-radius: 4px;
+                height: 5rem;
+                width: 11rem;
+                margin: 5px;
+            }
+            .contact{
+                color: black;
+                background-color: white;
+                border: 1px black solid;
+                border-radius: 4px;
+                height: 5rem;
+                width: 8rem;
+                margin: 5px;
 
-        .trust{
-            margin: auto;
+            }
+            .trust{
+                width: auto;
+                margin: 30px;
+                
+            }
+            .trust p{
+                width: auto;
+                margin: 10px;
+            }
+            .group1{
+                width: auto;
+                
+            }
+            .indigo{
+                width: 450px !important;
+                
+            }
+            .available{
+                background-color: #1E1F21;
+                color: white;
+                padding: 40px;
+               
+                border-radius: 10px;
+            }
 
+            .loss{
+                width: 100% !important;
+                margin: auto !important;
+            }
             
-        }
-        .trust p{
-            font-size: 24px;
-            font-family: 'Times New Roman', Times, serif;
-            padding-top: 30px;
-            padding-bottom: 20px;
-        }
-        .group1{
-            margin: auto;
-            width: 800px;
-            margin-top: 50px;
-            margin-bottom: 30px;
+            .amazon{
+                width: 90px !important;
+            }
+            .pg{
+                width: 40% !important;
+              
+            }
+            .accenture{
+                width: 80% !important;
+            }
+            .japan{
+                width: 80% !important;
+            }
+            .kohl{
+                width: 70% !important;
+            }
+            .xero{
+                width: 40% !important;
+            }
+            .armor{
+                width: 50% !important;
 
-        }
-        span{
-            font-size: 12px;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            color: #868687;
-            margin-top: 30px;
-        }
-        .group1 p{
-            font-size: 28px;
-        }
-        h3{
-            font-size: 20px;
-        }
-        .group3 p{
-            font-size: 16px;
+            }
+            .paypa{
+                width: 70% !important;
+            }
+            .group2 p{
+                margin: 9px;
+            }
+            .group3 p{
+                margin-right: 40px; 
+                max-width: 100%;
+                min-width: 100%;
+            }
+            .group5 p{
+                max-width: 100%;
+                min-width: 100%;
+            }
+            .group6{
             
-            width: 250px;
-            padding-bottom: 20px;
+                margin: 12px;
+            }
+            .group6 p{
+                font-size: 24px;
+            }
+            .group7 p{
+                max-width: 100%;
+                min-width: 100%;
+          }
+          .group8 p{
+            font-size: 26px;
             
-        }
-        a{
-            text-decoration: none;
-            color: black;
-            padding-top: 60px;
-            font-weight: 600;
-            padding-bottom: 40px;
-        }
-        .group4{
-            margin: 40px;
-        }
-        .group4 p{
-            font-size: 28px;
-            margin: auto;
             text-align: center;
+          }
+          .group9 p{
             max-width: 100%;
-            max-height: 100%;
-
-            
-            
-
-        }
-        .group5 p{
-            font-size: 17px;
-            width: 350px;
-            margin-bottom: 70px;
-            
-        }
-        .group6 p{
-            font-size: 28px;
-        }
-        .group7 p{
-            font-size: 17px;
-        }
-        .group8 p{
-            font-size: 28px;
-            margin: auto;
-            width: 75%; 
-            padding-bottom: 30px;
-        }
-        .group9 p{
-            font-size: 17px;
+            min-width: 100%;
+          }
+          .group11 p{
+            max-width: 100%;
+            min-width: 100%;
+          }
+          .group14{
+            padding: 15%;
+           
+          }
+          .group14 p{
+           padding: 5px !important;
+            max-width: 100%;
+            min-width: 100%;
+           
+          }
+          .group14 button{
+            margin: 10px;
+          }
           
-            width: 250px;
-        }
-        .group17 p{
-            font-size: 28px !important;
-            margin: auto !important;
-            width: 76% !important;
-        }
-        .group10{
-            margin-top: 50px;
-            background-color: #F5F3F3;
-        
-        }
-        .group10 p{
-            font-size: 18px;
-            width: 245px;
-        }
-        .group12 h4{
+          .group18 ul{
+            color: blue;
+            max-width: 100%;
+            min-width: 100%;
+            margin: 30px;
+            width: auto;
             font-size: 20px;
-            width: 90%;
-        }
-        .group12{
-            margin: 20px;
-            padding: 3px;
-        }
-        .get{
-            color: white;
-            background-color: black;
-            border: 2px black solid;
-            border-radius: 4px;
-            height: 3rem;
-            width: 13rem;
-        }
-        .contact{
-            color: black;
-            background-color: white;
-            border: 1px black solid;
-            border-radius: 4px;
-            height: 3rem;
-            width: 10rem;
-
-        }
-
-        h2{
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-size: 36px;
-            word-spacing: 2px;
-        }
-       .group2 p{
-            font-size: 28px;
-        }
-        .group1, .group2, .group4, .group6, .group8, .group17{
-            text-align: center;
-        }
-        h3{
-            font-size: 20px;
-        }
-        .group3, .group5, .group7, .group9, .group11 p{
-            font-size: 16px;
-            
-        }
-        .group14{
-            background-color: #1E1F21;
-            color: white;
-            text-align: center;
-            padding: 13rem;
-            line-height: 30px;
-            margin: -20px;
-        }
-        .group14 p{
-            font-size: 22px;
-            word-spacing: 4px;
-            padding: 5px;
-            margin: 0;
-
-        }
-        .group14 h2{
-            font-size: 40px;
-        }
-        .paper{
-            color: black;
-            background-color: white;
-            border: 1px black solid;
-            border-radius: 4px;
-            height: 3rem;
-            width: 13rem;
-            font-size: 17px;
-            font-weight: 500;
-
-        }
-        .sales{
-            color: white;
-            background-color: black;
-            border: 2px white solid;
-            border-radius: 4px;
-            height: 3rem;
-            width: 10rem;
-            font-size: 17px;
-            font-weight: 500;
-
-        }
-        .group16{
-            background-color: black;
-            color: white;
-            
-            padding: 0;
-            
-
-
-
-        }
-        .group16 h5, p{
-            font-size: 14px;
-
-        }
-        li{
-            list-style-type: none;
-            
-        }
+          }
+          .logo{
+            margin-top: 60px;
+          }
+         }
     </style>
 </head>
 <body>
@@ -252,7 +182,7 @@
             <form class="d-flex" role="search">
               
               <button class="btn" type="submit">Contact sales</button>
-              <button class="btn" type="submit">Login</button>
+    
               <button class="btn" style="background-color: black; color: white;" type="submit">Get started</button>
             </form>
           </div>
@@ -260,7 +190,7 @@
       </nav>
     <div class="container A">
         <div class="row">
-            <div class="col sm-5 trust mx-auto">
+            <div class="col sm-6 trust mx-auto">
                 <h1>Trust at Asana</h1>
                 <p>More than 100,000 of the world's
                     most innovative enterprises trust Asana
@@ -269,8 +199,8 @@
                     <button class="contact">Contact Sales</button>
 
             </div>
-            <div class="col sm-5">
-                <img src="image/asana.PNG" alt="#" style="width: 500px;">
+            <div class="col sm-6">
+                <img src="image/asana.PNG" alt="#" class="indigo" style="width: 80% ;">
             </div>
         </div>
     </div>
@@ -278,38 +208,40 @@
         <h2>Loved by millions of users in the largest organizations around the world</h2>
             <p>More than 80% of Fortune 100 companies use Asana*</p>
     </div>
-    <!-- <div>
-        <div class="container-fluid">
+    <div class="photos">
+        <div class="container" style="margin-bottom: 40px; margin-right: 8px;">
             <div class="row">
-                <div class="col sm-2">
-                    <img src="image/amazon.PNG" alt="#">
+                <div class="col sm-3 ">
+                    <img class="amazon" src="image/amazon.PNG" alt="#" style="width: 50%;">
                 </div>
-                <div class="col sm-2">
-                    <img src="image/pg.PNG" alt="#">
+                <div class="col sm-3">
+                    <img class="pg" src="image/pg.PNG" alt="#" style="width: 24%;">
                 </div>
-                <div class="col sm-2">
-                    <img src="image/accenture.PNG" alt="#">
+                <div class="col sm-3">
+                    <img class="accenture" src="image/accenture.PNG" alt="#" style="width: 50%;">
                 </div>
-                <div class="col sm-2">
-                    <img src="image/japan.PNG" alt="#">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col sm-2">
-                    <img src="image/kohl.PNG" alt="#">
-                </div>
-                <div class="col-sm-3">
-                    <img src="image/xero.PNG" alt="#">
-                </div>
-                <div class="col-sm-3">
-                    <img src="image/armor.PNG" alt="#">
-                </div>
-                <div class="col-sm-2">
-                    <img src="image/paypal.PNG" alt="#">
+                <div class="col sm-3">
+                    <img class="japan" src="image/japan.PNG" alt="#" style="width: 40%;">
                 </div>
             </div>
         </div>
-    </div> -->
+        <div class="container" style="margin-top: 70px; margin-bottom: 50px; margin-right: 8px;">
+            <div class="row">
+                <div class="col sm-3">
+                    <img class="kohl" src="image/kohl.PNG" alt="#" style="width: 50%;">
+                </div>
+                <div class="col sm-3">
+                    <img class="xero" src="image/xero.PNG" alt="#" style="width: 24%;">
+                </div>
+                <div class="col sm-3">
+                    <img class="armor" src="image/armor.PNG" alt="#" style="width: 40%;">
+                </div>
+                <div class="col sm-3">
+                    <img class="paypa" src="image/paypal.PNG" alt="#" style="width: 40%;">
+                </div>
+            </div>
+        </div>
+    </div> 
     <div class="group2">
         <span>BENEFITS</span>
         <h2>How Asana Earn Trust</h2>
@@ -380,7 +312,7 @@
                         of protection to help ensure your data is
                         secure while transmitted, stored, or processed.
                         Protections include encryption, least privilege
-                        access, secure software development, and a<u>public blog bounty programme</u>.</p>
+                        access, secure software development, and a <u>public blog bounty programme</u>.</p>
                 </div>
                 <div class="col sm-4">
                     <img src="image/operational.PNG" alt="#">
@@ -400,6 +332,19 @@
                         admins can securely deploy Asana to their
                         organizations with two-factor authentication, SSO, and SAML 2.0.</p>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container available">
+        <div class="row">
+            <div class="col-sm-9">
+                <h3>Now Available: Data Loss Prevention, Archiving, eDiscovery integrations</h3>
+                    <p>Increase data protection and help meet your organization’s most critical compliance needs. Get alerts when sensitive data is added to Asana, pull data into your archiving solution, and extract data for litigation and investigations.</p>
+                    <button class="more">Learn More</button>
+            </div>
+            <div class="col-sm-3">
+                <img src="image/loss.PNG" alt="" class="loss" width="90%">
             </div>
         </div>
     </div>
@@ -493,7 +438,7 @@
 
 
     <div class="container-fluid group10">
-        <div class="group17">
+        <div class="group17" style="padding-top: 120px;">
             <span>COMPLIANCE</span>
         <h2>Certifications and attestations</h2>
         <p>Asana adheres to global privacy laws and security standards with measures in place to help you meet your compliance obligations.</p>
@@ -570,7 +515,7 @@
 
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-3">
+                        <div class="col sm-3">
                             <img src="image/sta.PNG" alt="">
                             <h3>CSA STAR Level 1</h3>
                             <p>Cloud security controls compliance self-assessment</p>
@@ -673,24 +618,25 @@
         <h2>More on Asana Security</h2>
         <p>Take a deeper dive into Asana’s security practices and philosophy by downloading our trust and security
             whitepaper today.</p>
-            <button ass="paper">Get the paper white</button>
+            <button class="paper">Get the paper white</button>
             <button class="sales">Contact Sales</button>
     </div>
 
 
-    <div class="group15">
+    <div class="container group15">
         <h6>*Accurate as of <u>September 7, 2022.</u>Asana makes no representations about updating this number.</h6>
     </div>
 
 
 
     <div class="group16">
-        <div class="container">
+        <div class="container group18">
             <div class="row">
-                <div class="col-sm-2">
+                <div class="col sm-1">
+                    <img class="logo" src="image/asanatinylogo.PNG" alt="#">
 
                 </div>
-                <div class="col-sm-2">
+                <div class="col sm-2">
                     <ul>
                         <h5>Asana</h5>
                         <li>Home</li>
@@ -705,7 +651,7 @@
                         <li>Status</li>
                     </ul>
                 </div>
-                <div class="col-sm-2">
+                <div class="col sm-2">
                     <ul>
                         <h5>About Us</h5>
                         <li>Company
@@ -718,12 +664,11 @@
                             <li>Asana Blog</li>
                             <li>Investor Relations</li>
                             <li>Sitemap</li>
-                            <li>ModernSlavery <br> Transparency<br>
-                            Statement</li> 
+                            <li>Modern Slavery Transparency Statement</li> 
                             
                     </ul>
                 </div>
-                <div class="col-sm-2">
+                <div class="col sm-2">
                     <ul>
                         <h5>Workflow Solution</h5>
                         <li>Project Management</li>
@@ -738,7 +683,7 @@
                         <li>See All Teams</li>
                     </ul>
                 </div>
-                <div class="col-sm-2">
+                <div class="col sm-2">
                     <ul>
                         <h5>Resources</h5>
                         <li>Asana Guide
@@ -753,17 +698,17 @@
                             <li>Accessibility</li>
                     </ul>
                 </div>
-                <div class="col-sm-2">
+                <div class="col sm-2">
                     <ul>
                         <h5>Learn</h5>
                         <li>11 Leadership Styles</li>
-                        <li> Icebreaker <br> Questions</li>
-                        <li>Executive Summary <br> Tips</li>
-                        <li>Impostor Syndrome <br> Tips</li>
+                        <li> 110 Icebreaker Questions</li>
+                        <li>Executive Summary Tips</li>
+                        <li>Impostor Syndrome Tips</li>
                         <li>Prevent Team Burnout </li>
                         <li>SWOT Analysis Tips</li>
                         <li>What are OKRs?</li>
-                        <li>What are SMART <br> Goals?</li>
+                        <li>What are SMART Goals?</li>
                         <li>What is Scope Creep? </li>
                         <li>See All Guides</li>
                     </ul>
@@ -771,6 +716,9 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div>
+        <p style="font-size: 25px;">Caveat: This is a student page not an attempt to clone the existing webpage.</p>
     </div>
 </body>
 </html>

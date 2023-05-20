@@ -1,6 +1,6 @@
 * {
    padding: 0;
-   margin: 0;
+   margin: 0%;
    box-sizing: border-box;
 }
 .mongo{
@@ -137,8 +137,10 @@
 .data a{
    text-decoration: none;
    color: black;
-   margin: 60px;
-   
+   margin: 40px;
+   margin-top: 5px;
+   margin-bottom: 3px;
+   width: 350px;
    font-weight: 600;
 }
 
@@ -187,6 +189,17 @@
    margin-bottom: 3px;
    width: 350px;
 }
+.data h2{
+   font-size: 38px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: normal;
+   font-weight: 10px;
+   margin-top: 10%;
+   margin: 40px;
+   
+   margin-bottom: 3px;
+   width: 350px;
+}
 .covid h2 {
 
    font-size: 38px;
@@ -207,7 +220,7 @@
    background-color: #F1F4F7;
    word-spacing: 4px;
    padding: 10px;
-   width: 390px;
+   width: 350px;
 }
 
 .covid p {
@@ -284,10 +297,7 @@
    font-size: 18px;
    margin-top: 10px;
 }
-.G{
-   margin: auto;
-   width: 1400px;
-}
+
 .G a {
    text-decoration: none;
    color: black;
@@ -326,35 +336,11 @@ h4 {
    font-size: 20px;
 }
 
-.accordion {
-   background-color: #F1F4F7;
 
-}
-
-.accordion-body {
-   background-color: #F1F4F7;
-   margin: 0px;
-   padding: 50px;
-   font-size: 13px;
-   line-height: 32px;
-
-}
-
-.accordion-body ul {
-   list-style-type: none;
-}
-
-.accordion-button {
-   background-color: #F1F4F7;
-   border-color: #F1F4F7;
-   border: none;
-   padding: 0;
-
-}
 
 .last {
    background-color: #F1F4F7;
-   margin: 0px;
+   margin: 0;
    padding: 50px;
 
 }
@@ -375,6 +361,19 @@ h4 {
    padding: 4px;
 
 
+}
+.pink2{
+   display: none;
+}
+.pink1{
+   display: inline;
+}
+.orange2{
+   display: none;
+   
+}
+.orange1{
+   display: inline;
 }
 .lasttwo{
    display: none;
