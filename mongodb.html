@@ -49,25 +49,19 @@
             font-weight: bold;
             font-size: 13px;
         }
+        .image{
+            position: fixed;
+        }
         p{
             font-size: 14px;
             color: #818E95;
         }
-        .hey input:active{
-            border: 5px solid skyblue;
-            height: 2rem;
-            width: 23%;
-            border-radius: 10px;
-            color: blue;
-            background-color: white;
-
-        }
         .hey input:focus{
-            border: 5px solid skyblue;
+            border: 5px solid white;
             height: 2rem;
-            width: 23%;
+            width: 50%;
             border-radius: 10px;
-            color: blue;
+            color: purple;
             background-color: white;
 
         }
@@ -80,12 +74,23 @@
             
             display: inline-block;
         }
+        .up{
+            border-radius: 5px;
+            border: 2px color black;
+            background-color: #00684A;
+            color: white;
+        }
         .check input,p{
             display: inline-block;
         }
         #cname{
-            text-indent: 9rem;
+            width: 50%;
             font-style: italic;
+        }
+        @media screen and (max-width :992px){
+            .image{
+                position: relative;
+            }
         }
         
     </style>
@@ -102,10 +107,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="mongodb.html">Mongodb</a>
+                <a class="nav-link active" href="mongodb.html">Mongodb</a>
               </li>
               </li>
               <li class="nav-item">
@@ -115,66 +120,66 @@
           
           </div>
         </div>
-      </nav>
+    </nav>
     <div class="container-fluid">
         <div class="row">
-        <div class="col sm-9">
-            <img class="image" src="image/hey.png" alt="#">
-        </div>
-   <div class=" aisha col sm-3"> 
-    <h1 class="mx-auto">Create your account</h1>
-    <div class="button">
-        <button>Google</button>
-    <br />
-    <button>GitHub</button>
-    </div>
+            <div class="col sm-6">
+                <img class="image" src="image/hey.png" alt="#">
+            </div>
+            <div class="aisha col sm-6"> 
+                <h1 class="mx-auto">Create your account</h1>
+                <div class="button">
+                    <button>Google</button>
+                    <br />
+                    <button>GitHub</button>
+                </div>
 
-    <form>
-       <div class="hey">
-        <label for="email">Email Address</label>
-        <br />
-        <p for="email">We recommend using your work email</p>
-        <br />
-        <input type="email" id="email" >
-        <br /><br />
-        <label for="fname">First Name</label>
-        <br />
-        <input type="text" id="fname">
-        <br /><br />
-        <label for="lname">Last Name</label>
-        <br />
-        <input type="text" id="lname">
-        <br /><br />
-        <label for="password">Password</label>
-        <br />
-        <input type="password" id="password">
-        <br /><br />
-        <label for="cname">Company Name</label>
-        <br />
-        <input type="text" placeholder="optional" id="cname">
-        <br /><br />
-       </div>
-        <div class="check">
-            <input type="checkbox" >
-            <p>I accept the 
-                <a href="#">Privacy Policy</a> and the 
-                <a href="#">Terms of Service</a>
-            </p>
+                <form>
+                    <div class="hey">
+                        <label for="email">Email Address</label>
+                        <br />
+                        <p for="email">We recommend using your work email</p>
+                        <br />
+                        <input type="email" id="email" >
+                        <br /><br />
+                        <label for="fname">First Name</label>
+                        <br />
+                        <input type="text" id="fname">
+                        <br /><br />
+                        <label for="lname">Last Name</label>
+                        <br />
+                        <input type="text" id="lname">
+                        <br /><br />
+                        <label for="password">Password</label>
+                        <br />
+                        <input type="password" id="password">
+                        <br /><br />
+                        <label for="cname">Company Name</label>
+                        <br />
+                        <input type="text" placeholder="optional" id="cname">
+                        <br /><br />
+                    </div>
+                    <div class="check">
+                        <input type="checkbox" >
+                        <p>I accept the 
+                            <a href="#">Privacy Policy</a> and the 
+                            <a href="#">Terms of Service</a>
+                        </p>
             
-        </div>
-        <div class="sign">
-            <button>Sign Up</button>
-            <p>Have an account? <a href="#">Log in now</a></p>
+                    </div>
+                    <div class="sign">
+                        <button class="up">Sign Up</button>
+                        <p>Have an account? <a href="#">Log in now</a></p>
            
+                    </div>
+       
+                </form>
+                <div >
+                <p>Caveat: This is a student page not an attempt to clone the existing webpage.</p>
+                </div>
+            </div>
         </div>
     </div>
-       </form>
-     </div>
-    </div>
-    
 
-    <div>
-        <p style="display: flex;">Caveat: This is a student page not an attempt to clone the existing webpage.</p>
-    </div>
 </body>
 </html>
