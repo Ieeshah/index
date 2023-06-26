@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>Carousel</div>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="image/carousel1.jpg" class="d-block w-100" alt="#">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>OYO AGRIBUSINESS 2021</h5>
+              <button>VIEW PICTURE GALLERY</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="image/carousel2.jpg" class="d-block w-100" alt="#">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>OYO AGRIBUSINESS 2021</h5>
+                <button>VIEW PICTURE GALLERY</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="image/carousel3.jpg" class="d-block w-100" alt="#">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>OYO AGRIBUSINESS 2021</h5>
+                <button>VIEW PICTURE GALLERY</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+      <div>card</div>
+      <div class="card" style="width: 18rem;">
+        <img src="image/nonprofit.png" class="card-img-top" alt="#">
+        
+          <div class="card-body">
+            <h2 class="card-title">Nonprofit</h2>
+            <p class="card-text">Build relationships that drive change..</p>
+            <a href="">Learn more</a>
+          </div>
+      </div>
+
+      <div>Nav tabs</div>
+      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+            <img src="image/drive.svg" alt="#">
+            <br>
+            Drive or deliver
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+            <img src="image/eat.svg" alt="#">
+            <br>
+            Eat
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+            <img src="image/ride.svg" alt="#">
+            <br>
+            Ride
+          </button>
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+          <h1>Get in the driver’s seat and get paid</h1>
+          <p>Drive on the platform with the largest network of active riders.</p>
+          <button>Sign up to drive</button>
+          <br>
+          <a href="#">Learn more about driving and delivering</a>
+        </div>
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+          <h1>Discover delicious eats</h1>
+          <p>Order delivery from restaurants you love</p>
+          <button>Order now</button>
+          <a href="#">Own a restaurant? Partner with Uber Eats</a>
+        </div>
+        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+      </div>
+
+
+
+
+
+      <nav>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+          <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">
+            <img src="image/drive.svg" alt="#">
+            <br>
+            Drive or deliver
+          </button>
+          <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
+            <img src="image/eat.svg" alt="#">
+            <br>
+            Eat
+          </button>
+          <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">
+            <img src="image/ride.svg" alt="#">
+            <br>
+            Ride
+          </button>
+        </div>
+      </nav>
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0"><h1>Get in the driver’s seat and get paid</h1>
+          <p>Drive on the platform with the largest network of active riders.</p>
+          <button>Sign up to drive</button>
+          <br>
+          <a href="#">Learn more about driving and delivering</a></div>
+        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0"><h1>Discover delicious eats</h1>
+          <p>Order delivery from restaurants you love</p>
+          <button>Order now</button>
+          <a href="#">Own a restaurant? Partner with Uber Eats</a></div>
+        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">...</div>
+        
+      </div>
+      
+      
+
+
+      <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                
+                <button class="nav-link "> Company <i class="bi bi-chevron-down"></i></button>
+              </li>
+              <li class="nav-item">
+                
+                <button class="nav-link">Safety</button>
+              </li>
+              <li class="nav-item">
+                <button class="nav-link">Help</button>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <button class="btn " type="submit"><i class="bi bi-globe"></i> EN</button>
+              <button class="btn " type="submit"><i class="bi bi-grid-3x3-gap"></i> Product</button>
+              <button class="btn " type="submit">Log in </button>
+              <button class="btn sign" type="submit">Sign up</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      
+</body>
+</html>

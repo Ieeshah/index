@@ -1,0 +1,141 @@
+.nav img{
+    font-size: 50px;
+    display: block;
+    margin: auto;
+    color: black;
+    
+}
+.one{
+  border-bottom: 30px solid red; 
+  color: black;
+  /* margin: 0.5px;  */
+  
+}
+.two{
+  border-bottom: 30px solid red; 
+  color: black;
+  /* margin: 0.5px;  */
+  
+}
+.three{
+  border-bottom: 30px solid red; 
+  color: black;
+  /* margin: 0.5px;  */
+  
+}
+.four{
+  border-bottom: 30px solid red; 
+  color: black;
+  /* margin: 0.5px;  */
+  
+}
+.five{
+  border-bottom: 30px solid red; 
+  color: black;
+  /* margin: 0.5px;  */
+  
+}
+.six{
+  border-bottom: 30px solid red; 
+  color: black !important;
+  /* margin: 0.5px;  */
+  
+}
+.seven{
+  border-bottom: 30px solid red; 
+  color: black !important;
+  /* margin: 0.5px;  */
+  
+}
+
+
+
+
+
+.two:hover{
+    color: black;
+    border-bottom: 30px solid white;
+    
+
+}
+
+
+h1{
+    background-image: url(image/bgnetflix.jpg);
+    color: white;
+    padding: 9%;
+    font-size: 70px;
+    font-weight:bold;
+    text-align: center;
+
+}
+.plug{
+    background-image: url(image/device-panel-background2.jpg);
+    padding: 1%;
+}
+.plug h3{
+    color: white;
+    border-left: 2px #E50914 solid;
+    padding-left: 20px;
+    font-size: 38px;
+    width: 400px;
+}
+.plug p{
+    color: white;
+    
+    width: 580px;
+}
+.smart{
+    display: flex;
+    flex-direction: right;
+    
+}
+.smart button{
+    
+    border: 1px solid #E50914;
+    color: #E50914;
+    font-size: 16px;
+    width: 10rem;
+}
+strong{
+    color: #55555A;
+}
+.help a{
+    color: #AAAAAA;
+    text-decoration: none;
+    border-right: 1px solid #AAAAAA;
+    padding-right: 7px;
+    font-size: 15px;
+}
+.net{
+    color: #AAAAAA;
+    font-size: 14px;
+    padding: 1px;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 5%;
+}
+.term a{
+    color: #AAAAAA;
+    text-decoration: none;
+    padding: 8px;
+    font-size: 12px;
+}
+.hey{
+    float: right;
+}
+.sign{
+  float: right;
+}
+img:focus{
+  color: #55555A;
+}
+.pan{
+  border: 8px black solid;
+  background-color: black;
+  margin: 5px;
+}
+.nav{
+ 
+  
+}

@@ -1,0 +1,357 @@
+.carousel h5{
+    font-size: 30px;
+}
+.she button{
+    width: 15rem;
+    height: 3rem;
+    background-color: #F0B800;
+    border: 1px solid yellow;
+    color: black;
+}
+.image img{
+    float: left;
+}
+.image{
+   
+    margin: auto;
+    margin-bottom: 30px;
+}
+span{
+    text-align: center;
+    margin: 10%;
+    width: 80%;
+    
+    font-size: 18px;
+    color: red;
+}
+.about h2{
+    color: #006633;
+    font-size: 40px;
+}
+.about p{
+    color: #1C1C1C;
+    font-size: 16px;
+    margin: auto;
+    width: 95%;
+}
+.card{
+    margin: 1%;
+}
+.about u{
+    color: #006633;
+    text-decoration: none;
+}
+
+/* .about hr{
+    
+} */
+.about button{
+    background-color: #006633;
+    color: white;
+    width: 14rem;
+    height: 3.3rem;
+    margin: 12px;
+    margin-top: 6%;
+    border: 2px solid #006633;
+    font-size: 17px;
+}
+.oyo{
+    background-color: #F0B800;
+    padding: 20px;
+}
+.state h2{
+    text-align: center;
+    color: #006633;
+    font: 40px;
+    padding-top: 5%;
+}
+.state p{
+    color: #1C1C1C;
+    text-align: center;
+    margin: auto;
+    width: 82%;
+    padding: 5px;
+   
+   
+}
+.exhibit{
+    background-color: white;
+    width: 90%;
+    padding: 2px;
+    border: 4px grey solid;
+    margin-left: 10px;
+
+}
+.exhibit h2{
+    font-size: 32px;
+    color: #006633;
+    margin: auto;
+    width: 80%;
+    
+    padding-top: 6%;
+}
+.exhibit p{
+    font-size: 15px;
+    color: #1C1C1C;
+    margin: auto;
+    width: 80%;
+    
+}
+.exhibit button{
+    background-color: #006633;
+    color: white;
+    font-size: 16px;
+    border: 2px solid #006633;
+    height: 3rem;
+    margin: 10%;
+    margin-top: 3%;
+    
+}
+.delegates{
+    background-color: white;
+    border: 4px grey solid;
+    margin-left: 10px;
+}
+.delegates h2{
+    font-size: 32px;
+    color: #006633;
+    margin: auto;
+    width: 80%;
+    padding-top: 6%;  
+}
+.delegates p{
+    font-size: 15px;
+    color: #1C1C1C;
+    margin: auto;
+    width: 80%;
+}
+.delegates button{
+    background-color: #006633;
+    color: white;
+    font-size: 16px;
+    border: 2px solid #006633;
+    height: 3rem;
+    margin: 10%;
+    margin-top: 3%;
+}
+.visitors{
+    background-color: white;
+    border: 4px grey solid;
+    margin-left: 10px;
+}
+.visitors h2{
+    font-size: 32px;
+    color: #006633;
+    margin: auto;
+    width: 80%;
+    padding-top: 6%;
+}
+.visitors p{
+    font-size: 15px;
+    color: #1C1C1C;
+    margin: auto;
+    width: 80%;
+}
+.visitors button{
+    background-color: #006633;
+    color: white;
+    font-size: 16px;
+    border: 2px solid #006633;
+    height: 3rem;
+    margin: 10%;
+    margin-top: 3%;
+}
+.message h2{
+    color: #006633;
+    font-size: 38px;
+    margin: auto;
+}
+.message u{
+    color: #1C1C1C;
+    text-decoration: none;
+}
+.message p{
+    font-size: 15px;
+    margin: auto;
+    width: 100%;
+    padding: 5px;
+    color: grey;
+}
+.message button{
+    background-color: #006633;
+    color: white;
+    font-size: 13px;
+    border: 2px solid #006633;
+    height: 3.5rem;
+    width: 23%;
+    margin-top: 6%;
+    
+}
+.message{
+    padding-top: 5%;
+}
+.speaker{
+    padding-top: 5%;
+}
+.speaker h2{
+    color: #006633;
+    font-size: 38px;
+    margin: auto;
+    text-align: center;
+}
+.speaker u{
+    color: grey;
+    text-decoration: none;
+}
+.speaker button{
+    background-color: #006633;
+    color: white;
+    font-size: 13px;
+    border: 2px solid #006633;
+    height: 3rem;
+    border-radius: 3px;
+    width: 13%;
+    margin-top: 6%;
+    margin-left: 40%;
+}
+.partner h2{
+    text-align: center;
+    font-size: 38px;
+    color: #006633;
+}
+.partner button{
+    width: 170px;
+    background-color: white;
+    border-radius: 3px;
+    border: 2px solid grey;
+    margin: 30px;
+    padding: 0%;
+}
+.partner{
+    margin: 20px;
+}
+.partner u{
+    text-decoration: none;
+    color: #1C1C1C;
+}
+.sponsor h2{
+    text-align: center;
+    font-size: 38px;
+    color: #006633;
+}
+.sponsor button{
+    width: 170px;
+    background-color: white;
+    border-radius: 3px;
+    border: 2px solid grey;
+    margin: 30px;
+    padding: 0%;
+}
+.sponsor{
+    margin: 20px;
+}
+.sponsor u{
+    text-decoration: none;
+    color: #1C1C1C;
+}
+.innovate h3{
+    font-size: 19px;
+    color: blue;
+    text-align: center;
+    width: 81%;
+    margin: auto;
+    
+
+}
+.innovate p{
+    font-size: 15px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.innovate a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 60px;
+    text-align: center;
+    
+}
+.innovate{
+    padding-top: 5%;
+    background-color: grey;
+    padding-bottom: 5%;
+}
+.agri{
+    background-color: white;
+}
+.ship{
+    background-color: white;
+}
+.current{
+    background-color: white;
+}
+.first{
+    background-color: #F0B800;
+}
+.first h2{
+    text-align: center;
+    color: #006633;
+}
+.first form{
+    margin-left: 35%;
+    padding-bottom: 5%;
+}
+.first label{
+    font-size: 16px;
+    color: black;
+}
+.first input{
+    width: 10rem;
+    height: 1.7rem;
+}
+.first button{
+    width: 75px;
+    background-color: #006633;
+    border-radius: 3px;
+    border: 2px solid #006633;
+}
+.first u{
+    text-decoration: none;
+    color: #1C1C1C;
+}
+.quick{
+    background-color: #333333;
+    padding: 60px;
+    padding-right: 20%;
+}
+.quick h5{
+    color: white;
+    font-size: 21px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.quick li{
+    list-style-type: none;
+    color: #ADADAD;
+    padding: 5px;
+    font-size: 14px;
+}
+.quick tr{
+    color: #ADADAD;
+    font-size: 14px;
+    border-bottom: 0.5px solid #ADADAD;
+    padding-left: 15px;
+}
+.green{
+    background-color: #006633;
+}
+.green p{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+li:hover{
+    color: white;
+    cursor: pointer;
+}

@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 .navbar{
     font-size: 22px;
@@ -72,12 +73,12 @@
     margin: auto;
     width: 860px;
 }
-.profit{
-    margin: auto;
-    /* background-color: white; */
+/*.profit{
+    
+     background-color: white; 
     
     
-}
+}*/
 .profit img:after {
     background-color: transparent;
     border-radius: 100%;
@@ -86,7 +87,7 @@
     font-size: 20px;
     color: #032D60;
     
-    padding: 20px;
+    padding: 10px;
     /* background-color: white;
     width: 90%; */
 }
@@ -94,7 +95,7 @@
     font-size: 18px;
     color: black;
     
-    padding: 20px;
+    padding: 10px;
     /* background-color: white;
     width: 90%; */
 }
@@ -102,7 +103,7 @@
     font-size: 20px;
     color: #032D60;
     font-weight: 500;
-    padding: 20px;
+    padding: 10px;
     /* background-color: white; */
 }
 
@@ -198,6 +199,14 @@
     color: #032D60;
    
 }
+.hey{
+    display: flex;
+    flex-direction: right;
+}
+.row{
+    display: flex;
+    flex-direction: right;
+}
 .group10 p{
     font-size: 21px;
     
@@ -224,9 +233,13 @@
     margin: 5px;
     width: 500px;
 }
-.hey{
-    display: inline-block;
+.flu{
+    display: flex;
+    flex-direction: right;
  
+}
+.hey{
+    float: right;
 }
 .hey p{
  
@@ -340,7 +353,48 @@
 .icon a{
     text-align: end;
     color: #032D60;
-    size: 1000px;
+    font-size: 40px;
     padding-left: 10px;
 }
+.imp{
+    background-color: #032D60;
+    color: white;
+    
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+.imp a{
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    width: 800px;
+}
+.imp h6{
+    width: 300px;
+    font-size: 20px;
+}
+.imp button{
+    width: 15rem;
+    height: 3rem;
+    background-color: #032D60;
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    padding: 5px;
+}
+.abb{
+    display: none;
+}
+.icon a{
+    display: block;
+}
+.blink{
+    display: none;
+}
+.group6 li{
+    list-style-type: none;
+}
+
 

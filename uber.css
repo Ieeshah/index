@@ -1,0 +1,233 @@
+a{      
+    color: #5F5F5F !important;
+    font-size: 18px !important;
+    text-decoration: none !important;
+    border-bottom: 1px #5F5F5F solid !important;
+    
+}
+a:hover{
+    border-bottom: 1px black solid;
+    cursor: pointer;
+}
+.uber{
+    background-color: black;
+    color: white;
+}
+.uber li{
+    list-style-type: none;
+    padding-top: 10px;
+}
+.plat{
+    background-image: url(image/uber\ back.png);
+
+    padding: 9%;
+}
+.plat button{
+    width: 8rem;
+    height: 3rem;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+h3{
+    font-size: 40px;
+}
+.focus{
+    margin: 6%;
+}
+h2{
+    margin-bottom: 37px;
+    font-size: 37px;
+
+}
+h4{
+    font-size: 20px;
+    color: #5F5F5F;
+}
+p{
+    font-size: 16px;
+    color: #5F5F5F;
+}
+.down{
+    margin: 6%;
+}
+.app{
+    
+    background-color: #F6F6F6;
+}
+.about{
+    margin: 6%;
+}
+.driver{
+    display: flex;
+    flex-direction: right;
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin: 20px;
+     
+}
+.navbar{
+    background-color: #FFFFFF;
+    
+}
+.nav a{
+    text-decoration: none;
+    border-bottom: 0px solid white;
+}
+.driver h3{
+    margin-top: 50px;
+    font-size: 26px;
+}
+.driver img{
+    width: 150px;
+}
+.driver:hover{
+    cursor: pointer;
+}
+.sign h2{
+    padding-bottom: 9px;
+    border-bottom: 1px black solid;
+}
+.sign h2:hover{
+    color: #545454;
+    cursor: pointer;
+}
+.sign{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.app h2{
+    margin: 6%;
+    padding-top: 5%;
+}
+.visit a{
+    
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom: 0px solid black;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+   
+}
+.visit a:hover{
+    border-bottom: 1px solid white;
+}
+li:hover{
+    color: #AFAFAF;
+    cursor: pointer;
+}
+.company{
+    margin-top: 50px;
+}
+.eng button{
+    width: 6rem;
+    height: 2.5rem;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid black;
+    
+    margin: 2px;
+}
+.iko button{
+    width: 2.8rem;
+    height: 2.5rem;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid black;
+   
+}
+.eng button:hover{
+    background-color: #545454;
+}
+.iko button:hover{
+    background-color: #545454;
+}
+i{
+    font-size: 14px;
+}
+.bunch{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.visit img{
+    margin-top: 6%;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+.privacy a{
+    color: #AFAFAF;
+    font-size: 12px;
+    text-decoration: none;
+    border-bottom: 0px black solid;
+    padding-left: 2%;
+    
+}
+.privacy h6{
+    color: #AFAFAF;
+    font-size: 12px;
+    
+}
+.privacy a:hover{
+    color: #545454;
+}
+.privacy{
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+.deliver button{
+    width: 8rem;
+    height: 3rem;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-bottom: 3%;
+    margin-top: 1%;
+}
+h1{
+    font-size: 56px !important;
+    width: 470px;
+}
+nav button{
+    font-size: 16px;
+    width: 6rem;
+    background-color: #FFFFFF;
+    margin: 15px;
+    border: 0px white solid;
+    
+}
+.deliver p{
+    font-size: 16px;
+}
+nav{
+width: 450px;
+
+  
+}
+.nav button:hover{
+    background-color: white;
+    border-bottom: 5px black solid;
+    color: green;
+}
+
+.tab{
+    background-image: url(image/uber\ old\ man.jpg);
+  
+    padding: 2px;
+    
+}
+
+.huber{
+    margin: 7%;
+    padding: 3%;
+    background-color: white;
+    width: 550px;
+}
+.dis{
+    display: none;
+}
