@@ -1,10 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 
-}
+
 .navbar{
     font-size: 22px;
     color: #032D60;
@@ -13,8 +8,8 @@
     font-size: 22px;
     color: #032D60;
 }
-.carousel h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+ .carousel h1{
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important; */
     font-size: 54px;
    color: #032D60;
    
@@ -23,14 +18,13 @@
    
 }
 .carousel span{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important; */
     color: #032D60;
     font-size: 25px;
    
 }
 .carousel p{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
-    margin-top: 2% !important;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important; */
     font-size: 23px;
    
     
@@ -323,23 +317,23 @@
     height: 4rem;
     margin: 1%;
 } 
-.grid{
+.grin{
     
     margin: 4%;
 }
-.grid p{
+.grin p{
     font-size: 20px;
     color: #032D60;
     font-weight: 500;
     margin: auto;
     padding: 6%;
 }
-.grid a{
+.grin a{
     text-decoration: none;
     color: #0176D3;
     
 }
-.grid li{
+.grin li{
     list-style-type: none;
     padding: 4%;
     font-size: 21px;

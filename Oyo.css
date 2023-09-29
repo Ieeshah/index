@@ -334,6 +334,9 @@ span{
     width: 10rem;
     height: 1.7rem;
 }
+.first input:focus{
+    border: 0px solid white;
+}
 .first button{
     width: 75px;
     background-color: #006633;

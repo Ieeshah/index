@@ -57,7 +57,7 @@
 } 
 
 .safety .highlights {
-   margin: 40px;
+   margin: 3rem;
    margin-top: 5px;
    margin-bottom: 3px;
    width: 370px;
@@ -103,7 +103,7 @@
 }
 
 .data .highlights {
-   margin: 40px;
+   margin: 3rem;
    margin-top: 5px;
    margin-bottom: 3px;
    background-color: #F1F4F7;
@@ -126,7 +126,7 @@
 }
 
 .data p {
-   font-size: 16px;
+   font-size: 18px;
    margin: 40px;
    margin-top: 5px;
    margin-bottom: 3px;
@@ -367,6 +367,7 @@ h4 {
 }
 .pink1{
    display: inline;
+   
 }
 .orange2{
    display: none;
@@ -374,6 +375,7 @@ h4 {
 }
 .orange1{
    display: inline;
+   
 }
 .lasttwo{
    display: none;

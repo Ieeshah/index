@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -47,6 +50,152 @@
         
     </div>
 
+
+    <div>
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="zooooom">
+              <img src="image/zooooom.png" alt="" width="90%">
+            </div>
+            <div class="flex" style="padding-bottom: 100px;">
+              <h2>Flexible solutions for modern team collaboration</h2>
+              <button style="background-color: #1C2A52;" onclick="one()">Zoom One</button>
+              <button onclick="spaces()">Spaces</button>
+              <button onclick="events()">Events</button>
+              <button onclick="center()">Contact Center</button>
+              <button onclick="develop()">Developers</button>
+            </div>
+            <div class="solution" style="padding-bottom: 100px;">
+              <h2>Flexible solutions for modern team collaboration</h2>
+              <div class="button">
+                <button style="background-color: #1C2A52;" onclick="one()">Zoom One</button>
+                <button onclick="spaces()">Spaces</button>
+                <button onclick="events()">Events</button>
+                <button onclick="center()">Contact Center</button>
+                <button onclick="develop()">Developers</button>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-lg-9 inified" style="padding-top: 12%; padding-bottom: 20px;" id="connect">
+            <div class="row gx-5">
+              <div>
+                <div class="col-md-4 imggg">
+                  <img src="image/img1.jpg" alt="#" width="400" style="padding: 10px;">
+                </div>
+                <div class="col-md-4 unify">
+                  <h2>Unified communication and collaboration platform</h2>
+                  <p>Make meaningful connections with meetings, team chat, whiteboard, phone, and more in one
+                    offering.</p>
+    
+                  <ul class="grid">
+                    <li>
+                      <a href="#">Virtual Meetings</a>
+                    </li>
+                    <li>
+                      <a href="#">Team Chat</a>
+                    </li>
+                    <li>
+                      <a href="#">VoIP Phone System</a>
+                    </li>
+                    <li>
+                      <a href="#">Online Whiteboard</a>
+                    </li>
+                    <li>
+                      <a href="#">Conversation intelligence</a>
+                    </li>
+                    <li>
+                      <a href="#">Email and Calendar</a>
+                    </li>
+                    <li>
+                      <a href="#">Virtual Working Spaces</a>
+                    </li>
+                  </ul>
+    
+                  <button>Discover Zoom One</button>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-lg-9 inified" style="padding-top: 12%; padding-bottom: 20px;" id="collad">
+            <div>
+              <div class="row gx-5">
+                <div>
+                  <div class="col-md-5 imggg">
+                    <img src="image/img1.jpg" alt="#" width="400" style="padding: 10px;">
+                  </div>
+    
+                  <div class="col-md-4 unify">
+                    <h2>WAIT and collaboration platform</h2>
+                    <p>Make meaningful connections with meetings, team chat, whiteboard, phone, and more in one
+                      offering.</p>
+    
+                    <ul class="grid">
+                      <li>
+                        <a href="#">Virtual Meetings</a>
+                      </li>
+                      <li>
+                        <a href="#">Team Chat</a>
+                      </li>
+                      <li>
+                        <a href="#">VoIP Phone System</a>
+                      </li>
+                      <li>
+                        <a href="#">Online Whiteboard</a>
+                      </li>
+                      <li>
+                        <a href="#">Conversation intelligence</a>
+                      </li>
+                      <li>
+                        <a href="#">Email and Calendar</a>
+                      </li>
+                      <li>
+                        <a href="#">Virtual Working Spaces</a>
+                      </li>
+                    </ul>
+    
+                    <button>Discover Zoom One</button>
+                  </div>
+                </div>
+    
+              </div>
+            </div>
+    
+          </div>
+        </div>
+      </div>
+    
+
+
+
+<div>
+  <div class="input-group mb-3">
+    <div class="input-group-text">
+      <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
+    </div>
+    <input type="text" class="form-control" aria-label="Text input with checkbox">
+  </div>
+  
+  <div class="input-group">
+    <div class="input-group-text">
+      <input class="form-check-input mt-0" type="radio" value="" aria-label="Radio button for following text input">
+    </div>
+    <input type="text" class="form-control" aria-label="Text input with radio button">
+  </div>
+</div>
+
+
+    
+        <script>
+          function events(){
+            let shows = document.getElementById('collad');
+            let offs = document.getElementById('connect');
+            shows.style.display = 'inline';
+            offs.style.display = 'none';
+          }
+        </script>
+    
 
 </body>
 </html>

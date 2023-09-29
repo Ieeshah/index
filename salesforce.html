@@ -18,7 +18,7 @@
     <style>
         @media screen and (max-width :992px) {
 
-            .carousel {
+           .carousel {
                 margin-top: 1px !important;
                 padding-top: 10px !important;
             }
@@ -26,21 +26,29 @@
             .carousel h1 {
                 margin: auto;
                 width: auto;
+                font-size: 2rem !important;
+            }
+            
+            .carousel p{
+                margin: auto;
+                width: auto;
+                font-size: 1rem !important;
             }
 
             .carousel img {
 
-                width: auto;
+                width: 90% !important;
+                margin: auto !important;
 
-            }
+            } 
 
             .crm p {
                 width: auto;
             }
 
-            .group2 {
+            .group2 img{
                 width: auto;
-                margin: 50px;
+                /* margin: 10%; */
                 max-width: 100%;
             }
 
@@ -162,13 +170,13 @@
                 color: #032D60;
                 border-radius: 4px;
                 border-color: #F3F3F3;
-                width: 19%;
+                width: auto !important;
                 font-size: 22px;
-                height: 4rem;
+                height: auto !important;
                 margin: 1%;
             }
 
-            .grid {
+            .grin {
                 display: none;
             }
 
@@ -191,6 +199,7 @@
 
             img {
                 width: 90%;
+                
             }
 
             .sale {
@@ -211,9 +220,9 @@
                 margin-bottom: 4%;
             }
             .group2 a{
-                margin: 10%;
+                margin: auto !important;
                 text-align: center !important;
-                font-size: 40px;
+                font-size: 1rem  !important;
             }
             .group2 img{
                 width: 60%;
@@ -295,12 +304,52 @@
             .gre{
                 width: 300px ;
             }
+            .group3 img{
+                width: 60% !important;
+                margin: auto !important;
+            }
+            .group3{
+                margin: auto !important;
+            }
+            .car{
+                width: 50% !important;
+                margin: auto !important;
+            }
+            .crm{
+                width: auto !important;
+                margin: auto !important;
+            }
+            .crm p{
+                font-size: 1rem !important;
+            }
+            .group2 h1{
+                width: auto !important;
+                margin: auto !important;
+                font-size: 3rem !important;
+            }
+            .question h2{
+                margin: auto !important;
+                width: auto !important;
+                font-size: 3rem !important;
+            }
+            .crm h1{
+                font-size: 2rem !important;
+                width: auto !important;
+                margin: auto !important;
+            }
+            .group{
+                padding: 5% !important;
+            }
+            .profit .card{
+                width: auto !important;
+
+            }
             
         }
     </style>
 </head>
 
-<body style="overflow-x: hidden;">
+<body>
     <nav class="navbar navbar-expand-lg" style="background-color: #FFFFFF;">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
@@ -311,46 +360,55 @@
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="color: #032D60;">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="color: #06438d;">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item" style="color: #032D60;">
-                        <a class="nav-link" href="index.html" style="color: #032D60;">Home</a>
+                    <li class="nav-item" style="color: #06438d;">
+                        <a class="nav-link disabled" href="" style="color: #06438d; font-weight: 500;">Solutions<i class="bi bi-chevron-down" style="font-size: 12px; "></i></a>
                     </li>
-                    <li class="nav-item" style="color: #032D60;">
-                        <a class="nav-link" href="mongodb.html" style="color: #032D60;">Mongodb</a>
+                    <li class="nav-item" style="color: #06438d;">
+                        <a class="nav-link disabled" href="" style="color: #06438d; font-weight: 500;">Resources<i class="bi bi-chevron-down" style="font-size: 12px;"></i></a>
                     </li>
                     </li>
-                    <li class="nav-item" style="color: #032D60;">
-                        <a class="nav-link" href="asan.html" style="color: #032D60;">Asana</a>
+                    <li class="nav-item" style="color: #06438d;">
+                        <a class="nav-link disabled" href="" style="color: #06438d; font-weight: 500;">Who we are<i class="bi bi-chevron-down" style="font-size: 12px;"></i></a>
                     </li>
-                    <li class="nav-item" style="color: #032D60;">
-                        <a class="nav-link active" href="salesforce.html" style="color: #032D60;">Salesforce</a>
-                    </li>
-                    <li class="nav-item" style="color: #032D60;">
-                        <a class="nav-link" href="uber.html" style="color: #032D60;">Uber</a>
-                      </li>
-                      <li class="nav-item" style="color: #032D60;">
-                        <a class="nav-link" href="Oyo.html" style="color: #032D60;">Oyo</a>
-                      </li>
-                      <li class="nav-item" style="color: #032D60;">
-                        <a class="nav-link" href="Netflix.html" style="color: #032D60;">Netflix</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="Zoom.html">Zoom</a>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" style="color: #06438d; font-weight: 500;">
+                          Other Projects
+                        </a>
+                        
+                        
+                        
+                          <div class="dropdown-menu">
+                            
+                              <ul>
+                                <li class="dropdown item"><a class="nav-link" href="index.html">Meta</a></li>
+                                <li class="dropdown item"><a class="nav-link" href="asana.html">Asana</a></li>
+                                <li class="dropdown item"><a class="nav-link disabled" href="salesforce.html">Salesforce</a></li>
+                                <li class="dropdown item"><a class="nav-link" href="mongodb.html">Mongodb</a></li>
+                                <li class="dropdown item"><a class="nav-link"
+                                     href="Oyo.html">Oyo</a></li>
+                                <li class="dropdown item"><a class="nav-link" href="Netflix.html">Netflix</a></li>
+                                <li class="dropdown item"><a class="nav-link" href="Uber.html">Uber</a></li>
+                                <li class="dropdown item"><a class="nav-link" href="Zoom.html">Zoom</a></li>
+                              </ul>
+                            </div>
                       </li>
                 </ul>
                 <form class="d-flex" role="search" style="margin-left: 6%; color: #032D60;">
+                    <button style="background-color: #0176D3; color: white; border: 1px solid #0176D3; border-radius: 5px; ">Get Started</button>
 
-                    <button class="btn">login</button>
+                    <button class="btn"  style="color: #06438d; font-weight: 500;">login</button>
                     <br>
-                    <button class="btn" type="submit"><i class="bi bi-search"></i></button>
+                    <button class="btn" style="color: #06438d; font-weight: 500;"><i class="bi bi-search"></i></button>
                     <a href=""></i></a>
 
                 </form>
             </div>
         </div>
-    </nav>
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    </nav> 
+    <div><div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
@@ -371,7 +429,7 @@
                             <button class="see">See highlights</button>
                         </div>
                         <div class="col sm-6">
-                            <img src="image/watch.PNG" alt="" width="800px">
+                            <img src="image/watch.PNG" alt="" class="car" width="100%">
                         </div>
                     </div>
                 </div>
@@ -389,7 +447,7 @@
                             <a href="">Education</a>
                         </div>
                         <div class="col sm-6">
-                            <img src="image/path.PNG" alt="" width="800px">
+                            <img src="image/path.PNG" alt="" class="car" width="100%">
                         </div>
                     </div>
                 </div>
@@ -406,7 +464,7 @@
                             <button class="see">See the free resources</button>
                         </div>
                         <div class="col sm-6">
-                            <img src="image/maximize.PNG" alt="" width="790px">
+                            <img src="image/maximize.PNG" alt="" class="car" width="100%">
                         </div>
                     </div>
                 </div>
@@ -422,13 +480,14 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
-    </div>
+    </div></div>
+    
 
 
     <div class="group">
         <div class="crm">
-            <h1 class="container">CRM Solutions to Power Your Purpose</h1>
-            <p class="mx-auto">Salesforce.org provides powerful CRM technology for a global community of nonprofits and
+            <h1>CRM Solutions to Power Your Purpose</h1>
+            <p>Salesforce.org provides powerful CRM technology for a global community of nonprofits and
                 educational institutions to help them operate effectively, raise funds, and build more meaningful
                 relationships with those they serve.</p>
         </div>
@@ -436,7 +495,7 @@
 
         <div class="container profit">
             <div class="row">
-                <div class="col sm-4">
+                <div class="col-sm-4">
                     <div class="card" style="width: 26rem; border: 0px solid black;">
                         <img src="image/sales3.png" class="card-img-top" alt="#">
 
@@ -447,7 +506,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col sm-4 high">
+                <div class="col-sm-4 high">
                     <div class="card" style="width: 26rem; border: 0px solid black;">
                         <img src="image/sales4.png" class="card-img-top" alt="#">
 
@@ -459,7 +518,7 @@
                     </div>
 
                 </div>
-                <div class="col sm-4">
+                <div class="col-sm-4">
                     <div class="card" style="width: 26rem; border: 0px solid black;">
                         <img src="image/sales5.png" class="card-img-top" alt="#">
 
@@ -618,7 +677,7 @@
         </div>
     </div>
 
-    <div class="container-fluid">
+    <div>
         <div class="row">
             <img src="image/back.PNG" alt="">
         </div>
@@ -660,7 +719,7 @@
         <span><a href="#">Salesforce Crm For Education</a></span>
         <span><a href="#">Higher Education Marketing Software</a></span>
     </div>
-    <hr class="container">
+    <hr class="container-md">
 
 
     <div class="container">
@@ -693,7 +752,7 @@
 
 
 <hr class="container">
-    <div class="container-fluid grid">
+    <div class="grin">
         
         <div class="row">
             <div class="col-sm-2">
@@ -810,7 +869,7 @@
     </div>
 
     <div class="imp">
-        <div class="container-fluid">
+        <div class="">
             <div class="row">
                 <div class="col-lg my-3">
                     <h6>Copyright 2023 © Salesforce.org LLC — A Salesforce Company. All rights reserved.</h6>

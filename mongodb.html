@@ -1,346 +1,518 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <script src="mongodb.js"></script>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <!-- <script src="mongodb.js"></script> -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
     /* *{
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }   */
-    
-        h1{
-            color: #00684A;
-            font-weight: 400;
-            font-size: 36px;
-            
-        }
-        i{
-            color: black;
-            font-size: 24px;
-            padding: 10px;
-            margin-top: 20px !important;
-        }
-        .Home{
-            text-decoration: none;
-            color: red;
-            font-size: 28px;
-            
-        }
-        .aisha{ margin-right: 20%;}
 
-        .button button{
-            height: 3.3rem;
-            width: 60%;
-            border: 1px solid grey;
-            border-radius: 10px;
-            margin: 5px;
-            background-color: white;
-            font-size: 20px;
-            color: #818E95;
-            
-        } 
-        .button button:hover{
-            box-shadow: 1px 1px 2px 2px;
-            
-        }
+    h1 {
+      color: #00684A;
+      font-weight: 400;
+      font-size: 36px;
 
-        .hey input:hover{
-            
-            border: 1px solid grey;
-            
-        }
-        
-        .hey input{
-            height: 3rem;
-            width: 60%;
-            border: 1px solid black;
-            
-            border-radius: 7px;
-        }
-        .image{
-            position: fixed;
-            width: 30%;
-        }
-        label{
-            color: #3D4F58;
-            font-weight: bold;
-            font-size: 13px;
-        }
-        
-        p{
-            font-size: 14px !important;
-            color: #818E95;
-        }
-        .hey input:focus{
-            border: 3px solid #032D60;
-            outline: 0cm;
-            color: purple;
-            background-color: white;
+    }
 
-        }
-        a{
-            font-size: 24px;
-            color: dodgerblue;
-            text-decoration: none;
-            font-size: 14px;
-        }
-        .sign button,p{
-            
-            display: inline-block;
-        }
-        .up{
-            border-radius: 5px;
-            border: 2px color black;
-            background-color: #00684A;
-            color: white;
-        }
-        .checkbox{
-          width: 20px !important;
-        }
-        .check input,p{
-            display: inline-block;
-        }
-        #cname{
-            width: 60%;
-            font-style: italic;
-        }
-        .log a{
-            text-decoration: none;
-            color: dodgerblue;
-            display: inline;
-            font-size: 22px;
+    i {
+      color: black;
+      font-size: 24px;
+      padding: 10px;
+      margin-top: 20px !important;
+    }
 
-        }
-        .log h2{
-            font-size: 22px;
-        }
-        .fig{
-            display: none;
-        }
-        .trick{
-            display: none;
-        }
-        @media screen and (max-width :1200px){
-            .image{
-              
-                position: relative;
-                display: none;
-                
-            }
-            .fig{
-              display: block;
-              width: 100%;
-            }
-            input{
-              max-width: 100%;
-              min-width: 100%;
-              margin: auto !important;
-            }
-            .button button{
-              max-width: 100%;
-              min-width: 100%;
-              margin: auto !important;
-              margin-top: 2% !important;
-            }
-            .sign button{
-              width: 100%;
-              margin: auto !important;
-              margin-top: 2% !important;
-              height: 4rem;
-              font-size: 78%;
-            }
-            .checkbox{
-              width: 50px !important;
-            }
-            
-            
-            
-        }
-        
-    </style>
+    .Home {
+      text-decoration: none;
+      color: red;
+      font-size: 28px;
+
+    }
+
+    .aisha {
+      margin-left: 40%;
+    }
+
+    .button button {
+      height: 3.3rem;
+      width: 40%;
+      border: 1px solid grey;
+      border-radius: 10px;
+      margin: 5px;
+      background-color: white;
+      font-size: 20px;
+      color: #818E95;
+
+    }
+
+    .button button:hover {
+      box-shadow: 1px 1px 2px 2px;
+
+    }
+
+    .hey input:hover {
+
+      border: 1px solid grey;
+
+    }
+
+    .hey input {
+      height: 3rem;
+      width: 40%;
+      border: 1px solid black;
+
+      border-radius: 7px;
+    }
+
+    .image {
+      position: fixed;
+      width: 30%;
+    }
+
+    label {
+      color: #3D4F58;
+      font-weight: bold;
+      font-size: 13px;
+    }
+
+    p {
+      font-size: 14px !important;
+      color: #818E95;
+    }
+
+    .hey input:focus {
+      border: 3px solid #032D60;
+      outline: 0cm;
+      color: purple;
+      background-color: white;
+
+    }
+
+    a {
+      font-size: 24px;
+      color: dodgerblue;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .sign button,
+    p {
+
+      display: inline-block;
+    }
+
+    .up {
+      border-radius: 5px;
+      border: 2px color black;
+      background-color: #00684A;
+      color: white;
+    }
+
+    .checkbox {
+      width: 20px !important;
+    }
+
+    .check input,
+    p {
+      display: inline-block;
+    }
+
+    #cname {
+      width: 40%;
+      font-style: italic;
+    }
+
+    .log a {
+      text-decoration: none;
+      color: dodgerblue;
+      display: inline;
+      font-size: 22px;
+
+    }
+
+    .log h2 {
+      font-size: 22px;
+    }
+
+    .fig {
+      display: none;
+    }
+
+    .trick {
+      display: none;
+    }
+
+    @media screen and (max-width :728px) {
+      .aisha{
+        margin-left: 5% !important;
+      }
+      .image {
+
+        position: relative;
+        display: none;
+
+      }
+
+      .fig {
+        display: block;
+        width: 100%;
+      }
+
+      input {
+        max-width: 100%;
+        min-width: 100%;
+        margin: auto !important;
+      }
+
+      .button button {
+        max-width: 100%;
+        min-width: 100%;
+        margin: auto !important;
+        margin-top: 2% !important;
+      }
+
+      .sign button {
+        width: 100%;
+        margin: auto !important;
+        margin-top: 2% !important;
+        height: 4rem;
+        font-size: 78%;
+      }
+
+      .checkbox {
+        width: 50px !important;
+      }
+
+
+
+    }
+  </style>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg trick" style="background-color: #FFFFFF;">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="image/mongodb.PNG" alt="">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="mongodb.html">Mongodb</a>
-              </li>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="asana.html">Asana</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="salesforce.html">Salesforce</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="uber.html">Uber</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Oyo.html">Oyo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Netflix.html">Netflix</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Zoom.html">Zoom</a>
-              </li>
-            </ul>
-          
-          </div>
-        </div>
-    </nav>
+  <nav class="navbar navbar-expand-lg trick" style="background-color: #FFFFFF;">
     <div class="container-fluid">
-        <div class="row">
-          <img src="image/mogodblogin_mobile.png" alt="" class="fig" >
-            <div class="col-md-6 my-6">
-                <!-- <img class="image" src="image/mogodblogin_desktop.png" alt="#" width="100px" > -->
-                
-            </div> 
-            <div class="col-md-6 my-6 aisha"> 
-
-                <nav class="navbar navbar-expand-lg big" style="background-color: #FFFFFF;">
-                    <div class="container-fluid">
-                      <a class="navbar-brand" href="#">
-                        <img src="image/mongodb.PNG" alt="">
-                      </a>
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                          <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link active" href="mongodb.html">Mongodb</a>
-                          </li>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="asana.html">Asana</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="salesforce.html">Salesforce</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="uber.html">Uber</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="Oyo.html">Oyo</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="Netflix.html">Netflix</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="Zoom.html">Zoom</a>
-                          </li>
-                        </ul>
-                      
-                      </div>
-                    </div>
-                </nav>
- 
-                <h1 class="mx-auto">Create your account</h1>
-                <div class="log">
-                    <h2>Have an account? <a href="#">Log in now</a> </h2> 
-                </div>
-                <div class="button">
-                    <button><i class="bi bi-google"></i>  Google</button>
-                    <br />
-                    <button><i class="bi bi-github"></i>  GitHub</button>
-                    <!-- <p class="m"><span class="or"> or with email and password</span></p> -->
-                </div>
-
-                <form action="" name="form1" onkeyup="myFormat()"  onsubmit ="return(myFormat());">
-                    <div class="hey">
-                        <label for="email">Email Address</label>
-                        <br />
-                        <p >We recommend using your work email</p>
-                        <br />
-                        <input type="email" id="email" name="Email" required>
-                        <br />
-                        <span id="span1"></span>
-                        <br />
-                        <label for="fname">First Name</label>
-                        <br />
-                        <input type="text" id="fname" name="fname" required>
-                        <br />
-                        <span id="span2"></span>
-                        <br />
-                        <label for="lname">Last Name</label>
-                        <br />
-                        <input type="text" id="lname" name="lname" required>
-                        <br />
-                        <span id="span3"></span>
-                        <br />
-                        <label for="password">Password</label>
-                        <br />
-                        <input type="password" name="password" id="password" required>
-                        <br />
-                        <span id="span4" style="display: none;">
-                          <ul>Your password must:</ul>
-                          <li>Contain at least 8 characters</li>
-                         <li> Contain unique characters, numbers, or symbols</li>
-                          <li>Not contain your email address</li>
-                        </span>
-                        <br />
-                        <label for="cname">Company Name</label>
-                        <br />
-                        <input type="text" placeholder="optional" id="cname" name="cname">
-                        <br />
-                        <span id="span5"></span>
-                        <br />
-                    </div>
-                    <div class="container check" style="display: inline-block;">
-                        <div class="row">
-                          <div class="col-1" style="display: flex; align-items: normal; ">
-                            <input type="checkbox" name="checkB" class="checkbox">
-                        
-                          </div>
-                          <div class="col-11"><p>I accept the 
-                            <a href="#">Privacy Policy</a> and the 
-                            <a href="#">Terms of Service</a>
-                        </p></div>
-                        </div>
+      <a class="navbar-brand" href="#">
+        <img src="image/mongodb.PNG" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" style="color: #00684A; font-weight: 500;">
+              Other Projects
+            </a>
             
-                    </div>
-                    <div class="sign">
-                        
-                        <button class="up" type="submit" value="submit">Sign Here</button>
-                        <p>Have an account? <a href="#">Log in now</a></p>
-           
-                    </div>
-
-                </form>
+            
+            
+              <div class="dropdown-menu">
                 
-            </div>
-        </div>
-    </div>
-<div >
-                <p style="font-size: 30px !important; "><marquee behavior="alternate">Caveat: This is a student page not an attempt to clone the existing webpage.</marquee></p>
-                
+                  <ul>
+                    <li class="dropdown item"><a class="nav-link" href="index.html">Meta</a></li>
+                    <li class="dropdown item"><a class="nav-link" href="asana.html">Asana</a></li>
+                    <li class="dropdown item"><a class="nav-link" href="salesforce.html">Salesforce</a></li>
+                    <li class="dropdown item"><a class="nav-link disabled" href="mongodb.html">Mongodb</a></li>
+                    <li class="dropdown item"><a class="nav-link" href="Oyo.html">Oyo</a></li>
+                    <li class="dropdown item"><a class="nav-link" href="Netflix.html">Netflix</a></li>
+                    <li class="dropdown item"><a class="nav-link" href="Uber.html">Uber</a></li>
+                    <li class="dropdown item"><a class="nav-link" href="Zoom.html">Zoom</a></li>
+                  </ul>
                 </div>
+          </li>        
+        </ul>
 
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid">
+    <div class="row">
+      <img src="image/mogodblogin_mobile.png" alt="" class="fig">
+      <div class="col-md-6 my-6">
+        <img class="image" src="image/mogodblogin_desktop.png" alt="#" width="100px" height="100%">
 
+      </div>
+      <div class="col-md-6 my-6 aisha">
+
+        <nav class="navbar navbar-expand-lg big" style="background-color: #FFFFFF;">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="image/mongodb.PNG" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" style="color: #00684A; font-weight: 500;">
+                    Other Projects
+                  </a>
+                  
+                  
+                  
+                    <div class="dropdown-menu">
+                      
+                        <ul>
+                          <li class="dropdown item"><a class="nav-link" href="index.html">Meta</a></li>
+                          <li class="dropdown item"><a class="nav-link" href="asana.html">Asana</a></li>
+                          <li class="dropdown item"><a class="nav-link" href="salesforce.html">Salesforce</a></li>
+                          <li class="dropdown item"><a class="nav-link disabled" href="mongodb.html">Mongodb</a></li>
+                          <li class="dropdown item"><a class="nav-link"
+                               href="Oyo.html">Oyo</a></li>
+                          <li class="dropdown item"><a class="nav-link" href="Netflix.html">Netflix</a></li>
+                          <li class="dropdown item"><a class="nav-link" href="Uber.html">Uber</a></li>
+                          <li class="dropdown item"><a class="nav-link" href="Zoom.html">Zoom</a></li>
+                        </ul>
+                      </div>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </nav>
+
+        <h1 class="mx-auto">Create your account</h1>
+        <div class="log">
+          <h2>Have an account? <a href="#">Log in now</a> </h2>
+        </div>
+        <div class="button">
+          <button><i class="bi bi-google"></i> Google</button>
+          <br />
+          <button><i class="bi bi-github"></i> GitHub</button>
+          <!-- <p class="m"><span class="or"> or with email and password</span></p> -->
+        </div>
+
+        <form  id="form1">
+          <div class="hey">
+            <label for="email">Email Address</label>
+            <br />
+            <p>We recommend using your work email</p>
+            <br />
+            <input type="email" id="Email" onchange="fareedah()">
+            <br />
+            <span id="span1"></span>
+            <br />
+            <label for="fname">First Name</label>
+            <br />
+            <input type="text" id="fname"  onchange="fareedah()"> 
+            <br />
+            <span id="span2"></span>
+            <br />
+            <label for="lname">Last Name</label>
+            <br />
+            <input type="text" id="lname"  onchange="fareedah()">
+            <br />
+            <span id="span3"></span>
+            <br />
+            <label for="password">Password</label>
+            <br />
+            <input type="password" id="password"  onchange="fareedah()">
+            <br />
+            <span id="span4" style="display: none;">
+              <ul>Your password must:</ul>
+              <li>Contain at least 8 characters</li>
+              <li> Contain unique characters, numbers, or symbols</li>
+              <li>Not contain your email address</li>
+            </span>
+            <br />
+            <label for="cname">Company Name</label>
+            <br />
+            <input type="text" placeholder="optional" id="cname" name="cname"  onkeyup="fareedah()">
+            <br />
+            <span id="span5"></span>
+            <br />
+          </div>
+          <div class="check">
+            <input type="checkbox" name="checkB" class="checkbox"  onchange="fareedah()">
+                <span style="display: float; ">I accept the
+                  <a href="">Privacy Policy</a> and the
+                  <a href="">Terms of Service</a>
+                </span>
+              </div>
+          
+          <div class="sign">
+            <button class="up" type="submit" value="submit"  onsubmit="fareedah()">Sign Here</button>
+            <p>Have an account? <a href="#">Log in now</a></p>
+          </div>
+
+        </form>
+
+      </div>
+    </div>
+  </div>
+  <div>
+    <p style="font-size: 30px !important; ">
+      <marquee behavior="alternate">Caveat: This is a student page not an attempt to clone the existing webpage.
+      </marquee>
+    </p>
+
+  </div>
+
+  <script>
+      let form= document.getElementById("form1");
+      let fName= document.getElementById("fname");
+      let lName= document.getElementById("lname");
+      let Email = document.getElementById('Email');
+      let passWord= document.getElementById("password");
+      let emailError= document.getElementById('span1');
+      let nameError= document.getElementById('span2');
+      let lNameError= document.getElementById('span3');
+      let passError= document.getElementById('span4');
+
+      const number = /^[0-9]+$/;
+      const name = /^[a-zA-Z]+$/;
+      const emailFormat = /^\w+@[a-z]+\.[a-z]{2,3}$/;
+
+    form.addEventListener('submit', function(e){
+    e.preventDefault();
+    let busari= true;
+
+    if(!Email.value){
+      emailError.textContent= "Email Address must not be empty"
+      Email.style.borderColor='red'
+      Email.focus();
+      busari=false;
+    } else if(!Email.value.match(emailFormat)){
+      emailError.textContent= "Email Address must not be empty";
+      Email.style.borderColor='red';
+      Email.focus();
+      busari=false;
+    }
+    else{
+      emailError.textContent='correct';
+      Email.style.borderColor='green';
+    
+    }
+    
+    if(!fName.value){
+      nameError.textContent ="First name must be between 1 and 20 characters long";
+      fName.style.borderColor='red';
+      fName.focus() ;
+      busari=false;
+    } 
+    else{
+      nameError.textContent='correct';
+      fName.style.borderColor='green';
+      
+    }
+    if(!lName.value){
+      lNameError.textContent ="Last name must be between 1 and 20 characters long";
+      lName.style.borderColor='red';
+      lName.focus() ;
+      busari=false;
+    } 
+    else{
+      lNameError.textContent='correct';
+      lName.style.borderColor='green';
+      
+    }
+    if(!passWord.value){
+      passError.style.display='inline';
+      passWord.style.borderColor='red';
+      passWord.focus() ;
+      busari=false;
+    }
+    else if(!passWord.value .match(number)){
+      passError.style.display='inline';
+      passWord.style.borderColor='red';
+      passWord.focus() ;
+      busari=false;
+    }
+    else{
+      passError.style.display='none';
+      passWord.style.borderColor='green';
+    }
+     if(busari){
+      form.submit;
+     }
+});
+
+  function fareedah(){
+  
+    if(!Email.value){
+      emailError.textContent= "Email Address must not be empty"
+      Email.style.borderColor='red'
+      Email.focus();
+       busari=false;
+      
+    } else if(!Email.value.match(emailFormat)){
+      emailError.textContent= "Email Address must not be empty";
+      Email.style.borderColor='red';
+      Email.focus();
+      busari=false;
+     
+    }
+    else{
+      emailError.textContent='correct';
+      Email.style.borderColor='green';
+    
+    }
+    
+    if(!fName.value){
+      nameError.textContent ="First name must be between 1 and 20 characters long";
+      fName.style.borderColor='red';
+      fName.focus() ;
+       busari=false;
+      
+    } 
+    else{
+      nameError.textContent='correct';
+      fName.style.borderColor='green';
+      
+    }
+    if(!lName.value){
+      lNameError.textContent ="Last name must be between 1 and 20 characters long";
+      lName.style.borderColor='red';
+      lName.focus() ;
+     busari=false;
+      
+    } 
+    else{
+      lNameError.textContent='correct';
+      lName.style.borderColor='green';
+      
+    }
+    if(!passWord.value){
+      passError.style.display='inline';
+      passWord.style.borderColor='red';
+      passWord.focus() ;
+      busari=false;
+     
+    }
+    else if(!passWord.value .match(number)){
+      passError.style.display='inline';
+      passWord.style.borderColor='red';
+      passWord.focus() ;
+      busari=false;
+      
+    }
+    else{
+      passError.style.display='none';
+      passWord.style.borderColor='green';
+    }
+    if(busari){
+      form.submit;
+     }
+     
+  }; 
+  </script>
 </body>
+
 </html>

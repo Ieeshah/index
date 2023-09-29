@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script> 
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
     <link rel="stylesheet" href="Oyo.css">
     <meta charset="UTF-8">
@@ -13,43 +13,50 @@
     <style>
         @media screen and (max-width :768px){
             .exhibit{
-                margin: auto;
-                margin-top: 3%;
+                margin: auto !important;
+                width: auto !important;
+                /* margin-top: 3%; */
             }
             .exhibit p{
                 
-                width: 100% !important;
+                margin: auto !important;
+                width: auto !important;
                 
 
             }
             .exhibit h2{
-                width: 100% !important;
+                margin: auto !important;
+                width: auto !important;
             }
             .exhibit button{
 
             }
             .delegates{
-                margin: auto;
-                margin-top: 3%;
+                margin: auto !important;
+                width: auto !important;
             }
             .delegates p{
-                width: 100% !important;
+                margin: auto !important;
+                width: auto !important;
             }
             .delegates h2{
-                width: 100% !important;
+                margin: auto !important;
+                width: auto !important;
             }
             .delegates button{
 
             }
             .visitors{
-                margin: auto;
-                margin-top: 3%;
+                margin: auto !important;
+                width: auto !important;
             }
             .visitors p{
-                width: 100% !important;
+                margin: auto !important;
+                width: auto !important;
             }
             .visitors h2{
-                width: 100% !important;
+                margin: auto !important;
+                width: auto !important;
             }
             .about button{
                 background-color: #006633;
@@ -72,11 +79,14 @@
                 width: 90% !important;
             }
             .card{
-                margin-top: 5% !important;
+                /* margin-top: 5% !important; */
                 
             
-                margin: 5% !important;
+                margin: auto !important;
            
+            }
+            .innovate{
+                padding: auto !important;
             }
             
         } 
@@ -123,7 +133,7 @@
                 <a class="nav-link" href="salesforce.html">Salesforce</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="uber.html">Uber</a>
+                <a class="nav-link" href="Uber.html">Uber</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="Oyo.html">Oyo agribusiness</a>
@@ -453,12 +463,75 @@
 
     <div class="first">
         <h2><u>Be</u> the first to receive our updates!</h2>
-        <form action="">
+        <form id="form2">
             <label for="email">Email address:</label>
-            <input type="email" placeholder="Enter email address">
-            <button>Sign up</button>
+            <input type="text" placeholder="Enter email address" id="gree" onkeyup="red()">
+            <button onsubmit="red()" >Sign up</button>
+            <br>
+            <span id="report"></span>
         </form>
-        
+        <script>
+            let form = document.getElementById('form2');
+            let inputT = document.getElementById('gree');
+            let span = document.getElementById('report');
+
+            const emailFormat = /^\w+@[a-z]+\.[a-z]{2,3}$/;
+
+            form.addEventListener('submit',function(bus){
+                bus.preventDefault();
+                let iee=true;
+
+                if(!inputT.value){
+                    // document.getElementById('report').innerHTML='invalid email';
+                    inputT.style.borderColor='red';
+                    inputT.style.border='3px solid red';
+                    inputT.focus();
+                    iee= false;
+                }
+                else if(!inputT.value.match(emailFormat)){
+                    // document.getElementById('report').innerHTML='invalid email';
+                    inputT.style.borderColor='red';
+                    inputT.style.border='3px solid red';
+                    inputT.focus();
+                    iee= false;
+                }
+                else{
+                    // document.getElementById('report').innerHTML='valid'
+                    inputT.style.borderColor='green';
+                    inputT.style.border='3px solid green';
+                    
+                }
+                if(iee){
+                    form.submit;
+                }
+            });
+            function red(){
+
+                if(!inputT.value){
+                    // document.getElementById('report').innerHTML='invalid email';
+                    inputT.style.borderColor='red';
+                    inputT.style.border='4px solid red';
+                    inputT.focus();
+                    iee= false;
+                }
+                else if(!inputT.value.match(emailFormat)){
+                    // document.getElementById('report').innerHTML='invalid email';
+                    inputT.style.borderColor='red';
+                    inputT.style.border='3px solid red';
+                    inputT.focus();
+                    iee= false;
+                }
+                else{
+                    // document.getElementById('report').innerHTML='valid'
+                    inputT.style.borderColor='green';
+                    inputT.style.border='4px solid green';
+                    
+                }
+                if(iee){
+                    form.submit;
+                }
+            }
+        </script>
     </div>
 
     <div class="quick">
@@ -536,7 +609,7 @@
     </div>
 
     <div>
-        <p style="font-size: 40px;">Caveat: This is a student page not an attempt to clone the existing webpage.</p>
+        <p style="font-size: 40px;">Caveat: This is a student project not an attempt to clone the existing webpage.</p>
     </div>
     
 </body>

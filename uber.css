@@ -1,13 +1,33 @@
-a{      
+ .deliver a{      
     color: #5F5F5F !important;
     font-size: 18px !important;
     text-decoration: none !important;
     border-bottom: 1px #5F5F5F solid !important;
     
-}
-a:hover{
+} 
+.deliver a:hover{
     border-bottom: 1px black solid;
     cursor: pointer;
+}
+.focus a:hover{
+    border-bottom: 1px black solid;
+    cursor: pointer;
+}
+.about a:hover{
+    border-bottom: 1px black solid;
+    cursor: pointer;
+}
+.focus a{
+    color: #5F5F5F !important;
+    font-size: 18px !important;
+    text-decoration: none !important;
+    border-bottom: 1px #5F5F5F solid !important;
+}
+.about a{
+    color: #5F5F5F !important;
+    font-size: 18px !important;
+    text-decoration: none !important;
+    border-bottom: 1px #5F5F5F solid !important;
 }
 .uber{
     background-color: black;
@@ -59,7 +79,7 @@ p{
 .about{
     margin: 6%;
 }
-.driver{
+.dri{
     display: flex;
     flex-direction: right;
     background-color: #FFFFFF;
@@ -67,22 +87,22 @@ p{
     margin: 20px;
      
 }
-.navbar{
+/* .navbar{
     background-color: #FFFFFF;
     
 }
 .nav a{
     text-decoration: none;
     border-bottom: 0px solid white;
-}
-.driver h3{
-    margin-top: 50px;
+} */
+.app h3{
+
+    align-items: center;
+    display: flex;
     font-size: 26px;
 }
-.driver img{
-    width: 150px;
-}
-.driver:hover{
+
+.app:hover{
     cursor: pointer;
 }
 .sign h2{
@@ -193,7 +213,7 @@ h1{
     font-size: 56px !important;
     width: 470px;
 }
-nav button{
+/* nav button{
     font-size: 16px;
     width: 6rem;
     background-color: #FFFFFF;
@@ -213,10 +233,13 @@ width: 450px;
     background-color: white;
     border-bottom: 5px black solid;
     color: green;
+} */
+ .navbar a{
+    text-decoration: none !important;
 }
 
 .tab{
-    background-image: url(image/uber\ old\ man.jpg);
+    background-image: url(image/man.jpg);
   
     padding: 2px;
     
@@ -231,3 +254,22 @@ width: 450px;
 .dis{
     display: none;
 }
+#place input{
+    margin: 1%;
+   }
+   /* #drip button{
+    margin: 1%;
+    background-color: thistle;
+    color: rebeccapurple;
+    border: 2px cornsilk solid;
+    font-size: 18px;
+   } */
+   #counterr span{
+    /* margin: 14px; */
+    font-size: 20px;
+    
+   }
+   #note{
+    width: 200px;
+    margin-top: 20px;
+   }

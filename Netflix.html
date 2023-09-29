@@ -13,16 +13,50 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Netflix</title>
   <style>
-    /* @media screen and (max-width :768px){
+     @media screen and (max-width :768px){
+        h1{
+    /* background-image: url(image/bgnetflix.jpg); */
+    color: white;
+    /* padding: 9%; */
+    font-size: 3rem;
+    /* font-weight:bold; */
+    /* text-align: center; */
+    width: auto;
+
+}
         .lop{
           height: 15rem;
-          width: 1400px;
-          overflow-x: scroll;
-          overflow-x: auto;
+          
         }
-       } */
+        .netfl{
+          display: flex;
+          
+          overflow: auto;
+        }
+        .rat{
+            display: flex;
+        }
+        .plug p{
+            width: auto !important;
+        }
+        .plug h2{
+            width: auto !important;
+        }
+        .pan{
+            /* width: 50% !important; */
+            /* border: 7% black solid !important; */
+        }
+        .willy{
+            display: none;
+        }
+        #port{
+            width: 100% !important;
+            border: 75% solid red !important;
+        }
+       }
+
   </style>
 </head>
 
@@ -37,269 +71,263 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Meta</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="mongodb.html">Mongodb</a>
-          </li>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="asana.html">Asana</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="salesforce.html">Salesforce</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="uber.html">Uber</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Oyo.html">Oyo</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Netflix.html">Netflix</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Zoom.html">Zoom</a>
-          </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" style="color: #666484; font-weight: 500;">
+                  Other Projects
+                </a>
+                
+                
+                
+                  <div class="dropdown-menu">
+                    
+                      <ul>
+                        <li class="dropdown item"><a class="nav-link" href="index.html">Meta</a></li>
+                        <li class="dropdown item"><a class="nav-link" href="asana.html">Asana</a></li>
+                        <li class="dropdown item"><a class="nav-link disabled" href="salesforce.html">Salesforce</a></li>
+                        <li class="dropdown item"><a class="nav-link" href="mongodb.html">Mongodb</a></li>
+                        <li class="dropdown item"><a class="nav-link"
+                             href="Oyo.html">Oyo</a></li>
+                        <li class="dropdown item"><a class="nav-link" href="Netflix.html">Netflix</a></li>
+                        <li class="dropdown item"><a class="nav-link" href="Uber.html">Uber</a></li>
+                        <li class="dropdown item"><a class="nav-link" href="Zoom.html">Zoom</a></li>
+                      </ul>
+                    </div>
+              </li>
         </ul>
-        
+        <form class="d-flex" role="search" style="padding: 1%;">
+            <a href="" style="text-decoration: none; color: #E50914; font-size: 16px; font-weight: 700;">Sign In</a>
+            <!-- <span style="margin-left: 2%;"></span> -->
+            <button style="background-color: #E50914; color: white; border: 2px solid white; border-radius: 7px;  font-size: 16px; font-weight: 500; padding: 5px;"> Sign Up</button>
+
+        </form>
       </div>
     </div>
-  </nav>    
+  </nav>  
   <div class="bac">
     <h1>Connect to Netflix using your favorite devices.</h1>
   </div>
 
 
 
-  <div class=" nav-tabs container-fluid w-100" id="nav-tab" role="tablist">
-
-
-    <div class="row lop">
-      <div class="col one p-3">
-        <button class="nav-link active border-0" id="nav-one-tab" data-bs-toggle="tab" data-bs-target="#nav-one" type="button"
-          role="tab" aria-controls="nav-one" aria-selected="true">
-          <img src="image/media.png" alt="#" width="60px">
-          <br>
-          Streaming Media Player
-        </button>
-      </div>
-
-      <div class="col two p-3">
-        <button class="two nav-link border-0" id="nav-two-tab" data-bs-toggle="tab" data-bs-target="#nav-two" type="button"
-          role="tab" aria-controls="nav-two" aria-selected="false" >
-          <img src="image/nettv.PNG" alt="#" width="60px"> <br> Smart Tvs </button>
-      </div>
-
-      <div class="col three p-3">
-        <button class="nav-link three" id="nav-three-tab" data-bs-toggle="tab" data-bs-target="#nav-three" type="button"
-          role="tab" aria-controls="nav-three" aria-selected="false">
-          <img src="image/console.png" alt="#" width="60px"> <br> Game Consoles </button>
-      </div>
-
-      <div class="col four">
-        <button class="nav-link four" id="nav-four-tab" data-bs-toggle="tab" data-bs-target="#nav-four" type="button"
-          role="tab" aria-controls="nav-four" aria-selected="false">
-          <img src="image/mvpd.png" alt="#" width="60px"> <br> Set-top Boxes</button>
-      </div>
-
-      <div class="col five">
-        <button class="nav-link five" id="nav-five-tab" data-bs-toggle="tab" data-bs-target="#nav-five" type="button"
-          role="tab" aria-controls="nav-five" aria-selected="false">
-          <img src="image/player.png" alt="#" width="60px"> <br> Blu-ray Players</button>
-      </div>
-
-      <div class="col six">
-        <button class="nav-link six" id="nav-six-tab" data-bs-toggle="tab" data-bs-target="#nav-six" type="button"
-          role="tab" aria-controls="nav-six" aria-selected="false">
-          <img src="image/phones-and-tablet.png" alt="#" width="60px"> <br> Smartphones & Tablets</button>
-      </div>
-
-      <div class="col seven">
-        <button class="nav-link seven" id="nav-seven-tab" data-bs-toggle="tab" data-bs-target="#nav-seven" type="button"
-          role="tab" aria-controls="nav-seven" aria-selected="false">
-          <img src="image/laptop.png" alt="#" width="60px"> <br> PC & Laptops</button>
-      </div>
-    </div>
-  </div>
-
-  <div class="tab-content" id="nav-tabContent">
-
-    <div class="tab-pane fade show active plug" id="nav-one" role="tabpanel" aria-labelledby="nav-one-tab" tabindex="0">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg my-6">
-            <h3>PLUG AND PLAY</h3>
-            <p>The newest generation of media players and streaming sticks offer a fast, easy, and affordable way to
-              watch Netflix on your TV.</p>
-          </div>
-          <div class="col-lg my-6 portal">
-            <div class="row">
-              <div class="col-3" style="margin-right: 30px;">
-                <img src="image/portal.PNG" alt="#" width="190px" style="border: 50px black solid; ">
+  <div>
+    <div class="rat log">
+        <div class="cat">
+            <button onclick="med()">
+                <img src="image/media.png" alt="#" width="60%">
                 <br>
-              </div>
-              <div class="col-3" style="margin-left: 30px;">
-                <img src="image/portal.PNG" alt="#" width="190px" style="border: 50px black solid;">
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-3">
-                <img src="image/portal.PNG" alt="#" width="190px" style="border: 50px black solid; margin-top: 10px;">
-              </div>
-              <div class="col-3">
-                <!-- <img src="image/blank.PNG" alt="#" width="100px"> -->
-              </div>
-            </div>
-
-          </div>
+                Streaming Media Player
+            </button>
         </div>
-      </div>
+        <div class="cat">
+            <button onclick="art()">
+                <img src="image/nettv.PNG" alt="#" width="60%"> <br> Smart Tvs
+            </button>
+        </div>
+        <div class="cat">
+            <button onclick="gam()"><img src="image/console.png" alt="#" width="60%"> <br> Game Consoles</button>
+        </div>
+        <div class="cat"> <button onclick="tope()">
+                <img src="image/mvpd.png" alt="#" width="60%"> <br> Set-top Boxes
+            </button></div>
+        <div class="cat"> <button onclick="blu()">
+                <img src="image/player.png" alt="#" width="50%"> <br> Blu-ray Players
+            </button></div>
+        <div class="cat"> <button onclick="tab()">
+                <img src="image/phones-and-tablet.png" alt="#" width="57%"> <br> Smartphones & Tablets
+            </button></div>
+        <div class="cat"> <button onclick="lap()">
+                <img src="image/laptop.png" alt="#" width="70%"> <br> PC & Laptops
+            </button></div>
     </div>
 
-    <div class="tab-pane fade plug" id="nav-two" role="tabpanel" aria-labelledby="nav-two-tab" tabindex="0">
-      <div class="container b">
-        <div class="row">
-          <div class="col-lg my-6">
-            <h3>BUILT-IN CONNECTION</h3>
-            <p>Smart TVs have Netflix already on them—ready for you to watch. There’s no need to add another device.</p>
-            <div class="smart">
-              <div class="nr">
-                <img src="image/nrtv.png" alt="#" width="140px" style="margin: 10px;">
-              </div>
-              <div style="margin: 10px;">
-                <p style="width: 400px;">Want a smart TV that’s built for a great Netflix experience? Look for smart TVs
-                  with the Netflix Recommended TV logo.</p>
-                <button class="btn btn-outline-danger">LEARN MORE</button>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg my-6">
-            <div class="row">
-              <div class="col-5 pan">
-                <img src="image/panasonic_logo_bl_posi_png.png" alt="#">
-              </div>
-              <div class="col-5 pan">
-                <img src="image/hisenselogo.png" alt="#">
-              </div>
-
-            </div>
-            <div class="row">
-              <div class="col-5 pan">
-                <img src="image/panasonic_logo_bl_posi_png.png" alt="#">
-              </div>
-              <div class="col-5 pan">
-                <img src="image/hisenselogo.png" alt="#">
-              </div>
-
-            </div>
-            <div class="row">
-              <div class="col-5 pan">
-                <img src="image/panasonic_logo_bl_posi_png.png" alt="#">
-              </div>
-              <div class="col-5 pan">
-                <img src="image/hisenselogo.png" alt="#">
-              </div>
-
-            </div>
-            <div class="row">
-              <div class="col-5 pan">
-                <img src="image/panasonic_logo_bl_posi_png.png" alt="#">
-              </div>
-              <div class="col-5 pan">
-                <img src="image/hisenselogo.png" alt="#">
-              </div>
-
-            </div>
-            <div class="row">
-              <div class="col-5 pan">
-                <img src="image/panasonic_logo_bl_posi_png.png" alt="#">
-              </div>
-              <div class="col-5 pan">
-                <img src="image/hisenselogo.png" alt="#">
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
+    <div>
+        <div></div>
     </div>
+    
 
-    <div class="tab-pane fade plug" id="nav-three" role="tabpanel" aria-labelledby="nav-three-tab" tabindex="0">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg my-6">
-            <h3>PLAY GAMES <br> PLAY MOVIES</h3>
-            <p>You can also watch Netflix on a variety of game consoles.</p>
-          </div>
-          <div class="col-lg my-6">
+        <div class="plug">
+            <div class="container" id="medr">
+                <div class="row">
+                    <div class="col-lg my-6">
+                        <h3>PLUG AND PLAY</h3>
+                        <p>The newest generation of media players and streaming sticks offer a fast, easy, and
+                            affordable way to
+                            watch Netflix on your TV.</p>
+                    </div>
+                    <div class=" col-lg my-6 " id="portal">
+                        <div class="row">
+                            <div class="col-3">
+                                <img src="image/portal.PNG" alt="#" id="port" width="100%" style="border: 25% black solid; ">
+                                <br>
+                            </div>
+                            <div class="col-3">
+                                <img src="image/portal.PNG" alt="#" id="port" width="100%" style="border: 25% black solid;">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-3">
+                                <img src="image/portal.PNG" alt="#" width="100%" id="port"   
+                                    style="border: 25% black solid;">
+                            </div>
+                            <div class="col-3">
+                                <!-- <img src="image/blank.PNG" alt="#" width="100px"> -->
+                            </div>
+                        </div>
 
-          </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
+        <div class="brid">
+        <div class="plug">
+            <div class="container" id="artr" >
+                <div class="row">
+                    <div class="col-lg my-6">
+                        <h3>BUILT-IN CONNECTION</h3>
+                        <p>Smart TVs have Netflix already on them—ready for you to watch. There’s no need to add another
+                            device.</p>
+                        <div class="smart">
+                            <div class="nr">
+                                <img src="image/nrtv.png" alt="#" width="140px" style="margin: 10px;">
+                            </div>
+                            <div style="margin: 10px;">
+                                <p >Want a smart TV that’s built for a great Netflix experience?
+                                    Look for smart TVs
+                                    with the Netflix Recommended TV logo.</p>
+                                <button class="btn btn-outline-danger">LEARN MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg my-6 willy">
+                        <div class="row">
+                            <div class="col-3 pan">
+                                <img src="image/panasonic_logo_bl_posi_png.png" alt="#">
+                            </div>
+                            <div class="col-3 pan">
+                                <img src="image/hisenselogo.png" alt="#">
+                            </div>
 
-    <div class="tab-pane fade plug" id="nav-four" role="tabpanel" aria-labelledby="nav-four-tab" tabindex="0">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg my-6">
-            <h3>EASY AS CHANGING CHANNELS</h3>
-            <p>Now you can switch from live TV to Netflix right from your set-top box. Netflix is available through a
-              growing number of pay TV providers. Ask yours for Netflix if you don’t see it here</p>
-          </div>
-          <div class="col-lg my-6">
+                        </div>
+                        <div class="row">
+                            <div class="col-3 pan">
+                                <img src="image/panasonic_logo_bl_posi_png.png" alt="#">
+                            </div>
+                            <div class="col-3 pan">
+                                <img src="image/hisenselogo.png" alt="#">
+                            </div>
 
-          </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3 pan">
+                                <img src="image/panasonic_logo_bl_posi_png.png" alt="#">
+                            </div>
+                            <div class="col-3 pan">
+                                <img src="image/hisenselogo.png" alt="#">
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-3 pan">
+                                <img src="image/panasonic_logo_bl_posi_png.png" alt="#">
+                            </div>
+                            <div class="col-3 pan">
+                                <img src="image/hisenselogo.png" alt="#">
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-3 pan">
+                                <img src="image/panasonic_logo_bl_posi_png.png" alt="#">
+                            </div>
+                            <div class="col-3 pan">
+                                <img src="image/hisenselogo.png" alt="#">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
 
-    <div class="tab-pane fade plug" id="nav-five" role="tabpanel" aria-labelledby="nav-five-tab" tabindex="0">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg my-6">
-            <h3>ENJOY THE SIGHTS & SOUNDS</h3>
-            <p>Stream Netflix using your Blu-ray player or Home Theater System.</p>
-          </div>
-          <div class="col-lg my-6">
+        <div class="plug">
+            <div class="container" id="gamr">
+                <div class="row">
+                    <div class="col-lg my-6">
+                        <h3>PLAY GAMES <br> PLAY MOVIES</h3>
+                        <p>You can also watch Netflix on a variety of game consoles.</p>
+                    </div>
+                    <div class="col-lg my-6">
 
-          </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
 
-    <div class="tab-pane fade plug" id="nav-six" role="tabpanel" aria-labelledby="nav-six-tab" tabindex="0">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg my-6">
-            <h3>TAKE NETFLIX WITH YOU</h3>
-            <p>It’s easy to watch Netflix from anywhere. If Netflix isn’t already on your phone or tablet, you can
-              download our free app from the Apple App Store, Google Play, or the Windows Phone Store.</p>
-          </div>
-          <div class="col-lg my-6">
+        <div class="plug">
+            <div class="container" id="topr">
+                <div class="row">
+                    <div class="col-lg my-6">
+                        <h3>EASY AS CHANGING CHANNELS</h3>
+                        <p>Now you can switch from live TV to Netflix right from your set-top box. Netflix is available
+                            through a
+                            growing number of pay TV providers. Ask yours for Netflix if you don’t see it here</p>
+                    </div>
+                    <div class="col-lg my-6">
 
-          </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
 
-    <div class="tab-pane fade plug" id="nav-seven" role="tabpanel" aria-labelledby="nav-seven-tab" tabindex="0">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg my-6">
-            <h3>WATCH ON WHAT YOU HAVE</h3>
-            <p>Netflix is optimized for today’s most popular browsers so you can watch on your PC or laptop.</p>
-          </div>
-          <div class="col-lg my-6">
+        <div class="plug">
+            <div class="container" id="blur">
+                <div class="row">
+                    <div class="col-lg my-6">
+                        <h3>ENJOY THE SIGHTS & SOUNDS</h3>
+                        <p>Stream Netflix using your Blu-ray player or Home Theater System.</p>
+                    </div>
+                    <div class="col-lg my-6">
 
-          </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+
+        <div class="plug">
+            <div class="container" id="tabr">
+                <div class="row">
+                    <div class="col-lg my-6">
+                        <h3>TAKE NETFLIX WITH YOU</h3>
+                        <p>It’s easy to watch Netflix from anywhere. If Netflix isn’t already on your phone or tablet,
+                            you can
+                            download our free app from the Apple App Store, Google Play, or the Windows Phone Store.</p>
+                    </div>
+                    <div class="col-lg my-6">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="plug">
+            <div class="container" id="lapr">
+                <div class="row">
+                    <div class="col-lg my-6">
+                        <h3>WATCH ON WHAT YOU HAVE</h3>
+                        <p>Netflix is optimized for today’s most popular browsers so you can watch on your PC or laptop.
+                        </p>
+                    </div>
+                    <div class="col-lg my-6">
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-  </div>
-  </div>
+    </div>
+    </div>
+</div>
   <div class="net">
     <p>
       Netflix streaming membership and internet connection required.
@@ -354,10 +382,84 @@
   </div>
 
 
-  <div>
-    <p style="font-size: 45px;">Caveat: This is a student page not an attempt to clone the existing webpage.</p>
-</div>
+  <marquee>
+    <p style="font-size: 45px;">Caveat: This is a student project not an attempt to clone the existing webpage.</p>
+  </marquee>
 
+
+  <script>    
+    function med(){
+            document.getElementById('medr').style.display='block';
+            // document.getElementById('medr').style.backgroundImage=' url(image/device-panel-background2.jpg)';
+            // document.getElementById('medr').style.backgroundRepeat='no-repeat';
+            // document.getElementById('medr').style.display='none';
+            document.getElementById('artr').style.display='none';
+            document.getElementById('topr').style.display='none';
+            document.getElementById('blur').style.display='none';
+            document.getElementById('tabr').style.display='none';
+            document.getElementById('lapr').style.display='none';
+            document.getElementById('gamr').style.display='none';
+        }
+        function art(){
+            document.querySelector('#artr').style.display='block';
+            document.getElementById('medr').style.display='none';
+            document.getElementById('blur').style.display='none';
+            document.getElementById('topr').style.display='none';
+            document.getElementById('tabr').style.display='none';
+            document.getElementById('lapr').style.display='none';
+            document.getElementById('gamr').style.display='none';
+        }
+        function gam(){
+            document.getElementById('gamr').style.display='block';
+            document.getElementById('medr').style.display='none';
+            document.getElementById('artr').style.display='none';
+            document.getElementById('topr').style.display='none';
+            document.getElementById('blur').style.display='none';
+            document.getElementById('tabr').style.display='none';
+            document.getElementById('lapr').style.display='none';
+            // document.getElementById('artr').style.display='none';
+        }
+        function tope(){
+            document.getElementById('topr').style.display='block';
+            document.getElementById('medr').style.display='none';
+            document.getElementById('artr').style.display='none';
+            document.getElementById('gamr').style.display='none';
+            document.getElementById('blur').style.display='none';
+            document.getElementById('tabr').style.display='none';
+            document.getElementById('lapr').style.display='none';
+            // document.getElementById('artr').style.display='none';
+        }
+        function blu(){
+            document.getElementById('blur').style.display='block';
+            document.getElementById('medr').style.display='none';
+            document.getElementById('artr').style.display='none';
+            document.getElementById('gamr').style.display='none';
+            document.getElementById('topr').style.display='none';
+            document.getElementById('tabr').style.display='none';
+            document.getElementById('lapr').style.display='none';
+            // document.getElementById('artr').style.display='none';
+        }
+        function tab(){
+            document.getElementById('tabr').style.display='block';
+            document.getElementById('medr').style.display='none';
+            document.getElementById('artr').style.display='none';
+            document.getElementById('topr').style.display='none';
+            document.getElementById('blur').style.display='none';
+            document.getElementById('gamr').style.display='none';
+            document.getElementById('lapr').style.display='none';
+            // document.getElementById('artr').style.display='none';
+        }
+        function lap(){
+            document.getElementById('lapr').style.display='block';
+            document.getElementById('medr').style.display='none';
+            document.getElementById('artr').style.display='none';
+            document.getElementById('topr').style.display='none';
+            document.getElementById('blur').style.display='none';
+            document.getElementById('tabr').style.display='none';
+            document.getElementById('gamr').style.display='none';
+            // document.getElementById('artr').style.display='none';
+        }
+    </script>
 </body>
 
 </html>

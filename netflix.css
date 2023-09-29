@@ -5,46 +5,51 @@
     color: black;
     
 }
+ /* .lop{
+ 
+  
+  overflow: visible;
+}
+
 .one{
   border-bottom: 30px solid red; 
   color: black;
-  /* margin: 0.5px;  */
+ 
   
 }
 .two{
   border-bottom: 30px solid red; 
   color: black;
-  /* margin: 0.5px;  */
+  
   
 }
 .three{
   border-bottom: 30px solid red; 
   color: black;
-  /* margin: 0.5px;  */
+  
   
 }
 .four{
   border-bottom: 30px solid red; 
   color: black;
-  /* margin: 0.5px;  */
+  
   
 }
 .five{
   border-bottom: 30px solid red; 
   color: black;
-  /* margin: 0.5px;  */
+  
   
 }
 .six{
   border-bottom: 30px solid red; 
   color: black !important;
-  /* margin: 0.5px;  */
   
 }
 .seven{
   border-bottom: 30px solid red; 
   color: black !important;
-  /* margin: 0.5px;  */
+  
   
 }
 
@@ -57,7 +62,7 @@
     border-bottom: 30px solid white;
     
 
-}
+} */
 
 
 h1{
@@ -69,7 +74,7 @@ h1{
     text-align: center;
 
 }
-.plug{
+/* .plug{
     background-image: url(image/device-panel-background2.jpg);
     padding: 1%;
 }
@@ -96,7 +101,7 @@ h1{
     color: #E50914;
     font-size: 16px;
     width: 10rem;
-}
+} */
 strong{
     color: #55555A;
 }
@@ -131,11 +136,75 @@ img:focus{
   color: #55555A;
 }
 .pan{
-  border: 8px black solid;
+  border: 1rem black solid;
   background-color: black;
   margin: 5px;
 }
-.nav{
+img:focus {
+  color: #55555A;
+}
+
+.rat {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+.rat button {
+  /* border-bottom: 4px solid red !important; */
+  border: 0px solid red;
+  background-color: white;
+  /* padding-left: 90px; */
+  /* width: 0px; */
+}
+
+.cat {
+  border-bottom: 17px solid red;
+  padding: 5px;
+}
+.cat img{
+  width: 65% !important;
+  padding: 20px;
+}
+
+.cat:focus {
+  border-bottom: 0px solid red;
+}
+
+.log {
+  /* height: 15rem; */
+  /* width: 1000px; */
+  /* overflow: scroll; */
+  display: flex;
+  overflow-x: auto;
+  /* scroll-behavior: smooth; */
+  /* overflow: scroll; */
+
+}
+#gamr, #artr, #topr, #tabr, #lapr, #blur{
+  display: none;
+}
+
+.plug {
+  background-image: url(image/device-panel-background2.jpg);
+  background-repeat:no-repeat;
+   /* padding: 6px; */
+   background-size: cover; 
  
   
+}
+
+.plug h3 {
+  color: white;
+  border-left: 2px #E50914 solid;
+  padding-left: 20px;
+  margin-left: 3%;
+  font-size: 38px;
+  width: 100%;
+}
+
+.plug p {
+  color: white;
+  margin: auto;
+  width: 100%;
 }
