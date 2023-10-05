@@ -1,5 +1,9 @@
 
-
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
 .navbar{
     font-size: 22px;
     color: #032D60;

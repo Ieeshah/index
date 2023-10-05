@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="salesforce.css">
-
-
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salesforce.org</title>
-    <style>
-        @media screen and (max-width :992px) {
-            *{
-                margin: 0%;
-
+     <style>
+          @media screen and (max-width :1200px) {
+            .profit .card{
+                width: 100% !important;
+                background-color: #0176D3;
+                margin: auto !important;
             }
+            
+          }
+        @media screen and (max-width :992px) {
+
            .carousel {
                 margin-top: 1px !important;
                 padding-top: 10px !important;
@@ -208,16 +209,16 @@
             .sale {
                 display: none;
             }
-            .profit{
+            .profit {
                 width: 100% !important;
-                
-                padding: 10% !important;
+                color: red;
+                padding: 2% !important;
                 margin-top: 5%;
             }
-            .card{
+           .card{
                 width: 100% !important;
                 margin: 2px !important;
-            }
+            } 
             .high{
                 margin-top: 4%;
                 margin-bottom: 4%;
@@ -354,10 +355,9 @@
 
             
         }
-    </style>
+    </style> 
 </head>
-
-<body>
+ <body>
     <nav class="navbar navbar-expand-lg" style="background-color: #FFFFFF;">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
@@ -415,7 +415,7 @@
                 </form>
             </div>
         </div>
-    </nav> 
+    </nav>
     <div><div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -488,419 +488,82 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
-    </div></div>
-    
-
-
-    <div class="group">
-        <div class="crm">
-            <h1>CRM Solutions to Power Your Purpose</h1>
-            <p>Salesforce.org provides powerful CRM technology for a global community of nonprofits and
-                educational institutions to help them operate effectively, raise funds, and build more meaningful
-                relationships with those they serve.</p>
-        </div>
-
-
-        <div class="container profit">
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="card" style="width: 26rem; border: 0px solid black;">
-                        <img src="image/sales3.png" class="card-img-top" alt="#">
-
-                        <div class="card-body">
-                            <h2 class="card-title">Nonprofit</h2>
-                            <p class="card-text">Build relationships that drive change..</p>
-                            <a href="">Learn more</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 high">
-                    <div class="card" style="width: 26rem; border: 0px solid black;">
-                        <img src="image/sales4.png" class="card-img-top" alt="#">
-
-                        <div class="card-body">
-                            <h2 class="card-title">Higher Education</h2>
-                            <p class="card-text">Power the future-ready institution.</p>
-                            <a href="">Learn more</a>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-sm-4">
-                    <div class="card" style="width: 26rem; border: 0px solid black;">
-                        <img src="image/sales5.png" class="card-img-top" alt="#">
-
-                        <div class="card-body">
-                            <h2 class="card-title">K-12</h2>
-                            <p class="card-text">Power connected schools.</p>
-                            <a href="">Learn more</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
-
-    <div class="group2" style="padding-top: 10%;">
-        <h1>Our Global Community</h1>
-        <div class="container">
-            <div class="row" style="margin-top: 20%;">
-                <div class="col-lg my-3">
-                    <img class="arizona" src="image/arizona.png" alt="#" style="padding-bottom: 45%;">
-                    <br>
-                    <a href="">Read Story</a>
-                </div>
-                <div class="col-lg my-3">
-                    <img class="oakland" src="image/oakland.png" alt="#" style="padding-bottom: 42%;">
-                    <br>
-                    <a href="">Read Story</a>
-                </div>
-                <div class="col-lg my-3">
-                    <img class="bigb" src="image/bigb.png" alt="#" style="padding-bottom: 42%;">
-                    <br>
-                    <a href="">Read Story</a>
-                </div>
-                <div class="col-lg my-3">
-                    <img class="green" src="image/green.png" alt="#" style="padding-bottom: 45%;">
-                    <br>
-                    <a href="#">Read Story</a>
-                </div>
-            </div>
-        </div>
+</div>
+<div class="group">
+    <div class="crm">
+        <h1>CRM Solutions to Power Your Purpose</h1>
+        <p>Salesforce.org provides powerful CRM technology for a global community of nonprofits and
+            educational institutions to help them operate effectively, raise funds, and build more meaningful
+            relationships with those they serve.</p>
     </div>
 
 
-    <div class="group3">
-        <div style="margin: 7%;">
-            <div class="row">
-                <div class="col-md my-7">
-                    <h2>Success Stories</h2>
-                    <p>Find out how nonprofits and educational institutions just like yours use Salesforce.org to power
-                        their purpose.
-                    </p>
-                    <button>Video Stories</button>
-                    <a href="#">Story libraries</a>
-                </div>
-                <div class="col-md my-5" style="margin-left: 80px;">
-                    <img src="image/success.PNG" alt="">
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <div class="group4">
-        <div class="feature" style="margin-left: 7%;">
-            <div class="row">
-                <div class="col sm-10">
-                    <h1>Featured Content For You</h1>
-                    <p>See all of the latest articles from Salesforce for nonprofits and education institutions.</p>
-                </div>
-                <div class="col sm-2"></div>
-            </div>
-        </div>
-        <div style="margin: 7%; margin-top: 2%;">
-            <div class="row pink">
-                <div class="col-md my-4">
-                    <img src="image/fund.PNG" alt="#" width="90%">
-                    <h4>The Nonprofit Fundraising Guide</h4>
-                    <p>Learn about how nonprofits can meet donors where they are and address their needs and preferences
-                        with effective fundraising strategies.</p>
-
-                </div>
-                <div class="col-md my-4">
-                    <img src="image/market.PNG" alt="#" width="90%">
-                    <h4>The Nonprofit Marketing Guide</h4>
-                    <p>Learn how to build an effective, scalable nonprofit marketing strategy that amplifies your
-                        mission and give supporters opportunities to be involved.</p>
-
-                </div>
-                <div class="col-md my-4">
-                    <img src="image/edu.PNG" alt="#" width="90%">
-                    <h4>The Importance of CRM in Higher Education</h4>
-                    <p>Learn how a CRM enables education institutions to manage relationships with all of their
-                        customers, including students, alumni, faculty, staff, and corporate partners.</p>
-                </div>
-
-            </div>
-            <button>See All Articles</button>
-        </div>
-    </div>
-
-
-
-    <div class="group10">
-        <div style="margin: 7%;">
-            <div class="row">
-                <div class="col-md my-6">
-                    <img src="image/build.PNG" alt="#" class="edu" width="700px">
-                    <br>
-                    <span>EDUCATION</span>
-                    <h4>Build Deeper Connections with Students Using Education Cloud</h4>
-                    <p>Announcing new Salesforce for Education products, including expansion of Education Cloud to
-                        support student success.</p>
-                </div>
-                <div class="col-md my-6">
-                    <div class="row">
-                        <div class="hey">
-                            <div>
-                                <img src="image/summer.PNG" alt="">
-                            </div>
-                            <div>
-                                <span>NONPROFIT</span>
-                                <h4>Salesforce’s Summer ‘23 Release Helps Nonprofits and Grantmakers Maximize Efficiency
-                                    and Impact Across Organizations</h4>
-                                <p>Salesforce’s Summer ‘23 Release features offer stronger solutions in programs and
-                                    grantmaking.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="hey">
-                            <div>
-                                <img src="image/education.PNG" alt="">
-                            </div>
-                            <div>
-                                <span>EDUCATION</span>
-                                <h4>What is a CRM for nonprofits and education institutions?</h4>
-                                <p>A CRM is a customer relationship management tool that helps organizations such as
-                                    nonprofits and education institutions manage relationships with…</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="hey">
-                            <div>
-                                <img src="image/summit.PNG" alt="">
-                            </div>
-                            <div>
-                                <span>EDUCATION</span>
-                                <h4>Education Summit Homecoming: 4 Trends From This Year’s Event</h4>
-                                <p>From AI to analytics, these key trends emerged from the Education Summit, our biggest
-                                    educational event of the year.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div>
+    <div class="container profit">
         <div class="row">
-            <img src="image/back.PNG" alt="">
+            <div class="col-md-4">
+                <div class="card" style="width: 100%; border: 0px solid black;">
+                    <img src="image/sales3.png" class="card-img-top" alt="#">
+
+                    <div class="card-body">
+                        <h2 class="card-title">Nonprofit</h2>
+                        <p class="card-text">Build relationships that drive change..</p>
+                        <a href="">Learn more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 high">
+                <div class="card" style="width: 100%; border: 0px solid black;">
+                    <img src="image/sales4.png" class="card-img-top" alt="#">
+
+                    <div class="card-body">
+                        <h2 class="card-title">Higher Education</h2>
+                        <p class="card-text">Power the future-ready institution.</p>
+                        <a href="">Learn more</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 100%; border: 0px solid black;">
+                    <img src="image/sales5.png" class="card-img-top" alt="#">
+
+                    <div class="card-body">
+                        <h2 class="card-title">K-12</h2>
+                        <p class="card-text">Power connected schools.</p>
+                        <a href="">Learn more</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-
-    <div class="event">
-        <h1>Event Replays</h1>
-        <p>Tune in to sessions from our recent summits for Education and Nonprofits.</p>
-    </div>
-
-
-
-    <div class="group6" style="margin: 7%;">
-        <div class="row">
-            <div class="col sm-6">
-                <img src="image/event.PNG" alt="#" class="rep" width="700px">
-                <h1>Education Summit Replay</h1>
-                <li><a href="#">Education Summit Sessions</a></li>
-            </div>
-            <div class="col sm-6">
-                <img src="image/replay.PNG" alt="#" class="rep" width="700px">
-                <h1>Nonprofit Summit Replay</h1>
-                <li><a href="#">Nonprofit Summit Sessions</a></li>
-            </div>
-        </div>
-    </div>
-
-    <div class="question">
-        <h2>Questions? We have answers.</h2>
-        <p>Get started for free. Or talk to our team of experts to unlock the best solutions for your organization.</p>
-        <button>Contact Us</button>
-    </div>
-
-
-    <div class="also" style="display: inline; margin-left: 7%;">
-        <span>ALSO OF INTEREST</span>
-        <span><a href="#">Importance Of Crm For Higher Education</a></span>
-        <span><a href="#">The Nonprofit Marketing Guide</a></span>
-        <span><a href="#">Salesforce Crm For Education</a></span>
-        <span><a href="#">Higher Education Marketing Software</a></span>
-    </div>
-    <hr class="container-md">
-
-
+</div>
+<div class="group2" style="padding-top: 10%;">
+    <h1>Our Global Community</h1>
     <div class="container">
-        <div class="row sale">
-            <div class="col-sm my-6" style="margin: 7%; margin-bottom: 2%; ">
-                <img src="image/salesforce.PNG" class="sale" alt="">
+        <div class="row" style="margin-top: 20%;">
+            <div class="col-lg my-3">
+                <img class="arizona" src="image/arizona.png" alt="#" style="padding-bottom: 45%;">
+                <br>
+                <a href="">Read Story</a>
             </div>
-            <div class="col-sm my-6 icon " style="margin: 7%; margin-left: 40%; margin-bottom: 2%;">
-                <a href=""><i class="bi bi-linkedin"></i></a>
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-youtube"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
+            <div class="col-lg my-3">
+                <img class="oakland" src="image/oakland.png" alt="#" style="padding-bottom: 42%;">
+                <br>
+                <a href="">Read Story</a>
             </div>
-
-
-
-        </div>
-        <div class="blink">
-            <div class="col-sm my-6">
-                <a href=""><i class="bi bi-linkedin"></i></a>
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-youtube"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
+            <div class="col-lg my-3">
+                <img class="bigb" src="image/bigb.png" alt="#" style="padding-bottom: 42%;">
+                <br>
+                <a href="">Read Story</a>
+            </div>
+            <div class="col-lg my-3">
+                <img class="green" src="image/green.png" alt="#" style="padding-bottom: 45%;">
+                <br>
+                <a href="#">Read Story</a>
             </div>
         </div>
     </div>
-
-
-
-<hr class="container">
-    <div class="grin">
-        
-        <div class="row">
-            <div class="col-sm-2">
-                <p>For Nonprofits</p>
-                <a href="#">
-                    <li>Salesforce for Nonprofits</li>
-                </a>
-                <a href="#">
-                    <li>All Products</li>
-                </a>
-                <a href="#">
-                    <li>Pricing</li>
-                </a>
-                <a href="#">
-                    <li>Nonprofit Summit</li>
-                </a>
-            </div>
-
-            <div class="col-sm-2">
-
-                <p>Nonprofits Get Started</p>
-                <a href="#">
-                    <li>Power of Us Program</li>
-                </a>
-                <a href="#">
-                    <li>Nonprofit Lightning Enterprises Edition Trial </li>
-                </a>
-
-            </div>
-            <div class="col-sm-2">
-
-                <p>For Education</p>
-                <a href="#">
-                    <li>Salesforce for Education</li>
-                </a>
-                <a href="#">
-                    <li>All Products</li>
-                </a>
-                <a href="#">
-                    <li>Pricing</li>
-                </a>
-                <a href="#">
-                    <li>Education Summit</li>
-                </a>
-
-            </div>
-            <div class="col-sm-2">
-
-                <p>Education Get Started</p>
-                <a href="#">
-                    <li>Power of Us Program</li>
-                </a>
-                <a href="#">
-                    <li>Higher Ed Lightning Enterprise Edition Trial </li>
-                </a>
-
-            </div>
-            <div class="col-sm-2">
-
-                <p>Popular Links</p>
-                <a href="#">
-                    <li>Blog</li>
-                </a>
-                <a href="#">
-                    <li>Customer Stories</li>
-                </a>
-                <a href="#">
-                    <li>Trailblazer Community</li>
-                </a>
-
-            </div>
-            <div class="col-sm-2">
-
-                <p>About Us </p>
-                <a href="#">
-                    <li>Our Mission & Impact</li>
-                </a>
-                <a href="#">
-                    <li>Careers</li>
-                </a>
-                <a href="#">
-                    <li>Contact Us</li>
-                </a>
-                <a href="#">
-                    <li>1-800-667-6389</li>
-                </a>
-                <a href="#">
-                    <li>Stay Up-to-Date</li>
-                </a>
-
-            </div>
-        </div>
-    </div>
-
-    <div class="col-sm-12 abb">
-
-        <p>About Us </p>
-        <a href="#">
-            <li>Our Mission & Impact</li>
-        </a>
-        <a href="#">
-            <li>Careers</li>
-        </a>
-        <a href="#">
-            <li>Contact Us</li>
-        </a>
-        <a href="#">
-            <li>1-800-667-6389</li>
-        </a>
-        <a href="#">
-            <li>Stay Up-to-Date</li>
-        </a>
-
-    </div>
-
-    <div class="imp">
-        <div class="">
-            <div class="row">
-                <div class="col-lg my-3">
-                    <h6>Copyright 2023 © Salesforce.org LLC — A Salesforce Company. All rights reserved.</h6>
-                </div>
-                <div class="col-lg my-6 gre">
-                    <a href="#">Impressum</a>
-                    <a href="#">Email Preferences</a>
-                    <a href="">Privacy</a>
-                    <a href="">Terms of Service</a>
-                    <a href="#">Cookie Preferences</a>
-                    <a href="#">Your privacy choices</a>
-                </div>
-                <div class="col-lg my-3">
-                    <button>English</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div>
-        <p style="font-size: 45px;">Caveat: This is a student page not an attempt to clone the existing webpage.</p>
-    </div>
-
-</body>
-
+</div>
+</body> 
 </html>
