@@ -314,7 +314,9 @@ nav{
 
 
     <div class="dis">
-        <img src="image/onecopy.jpg" alt="#">
+        <img src="image/onecopy.jpg" alt="#" id="man">
+        <img src="image/uberwomen.png" alt="" id="woman" style="display: none;">
+        <img src="image/uberride.jpg" alt="" id="human" style="display: none;">
     </div>
     <div class="plat">
         <h3>The Uber you know, reimagined for business</h3>
@@ -503,18 +505,27 @@ nav{
             c.style.backgroundImage='url(image/man.jpg)';
             c.style.backgroundRepeat='no-repeat';
             c.style.backgroundSize='100%';
+            document.getElementById('man').style.display='block';
+            document.getElementById('woman').style.display='none';
+            document.getElementById('human').style.display='none';
           };
           function eatClick(){
             let a= document.querySelector('.tab');
             a.style.backgroundImage='url(image/uberwomen.png)'
             a.style.backgroundRepeat='no-repeat'
             a.style.backgroundSize='100%'
+            document.getElementById('woman').style.display='block';
+            document.getElementById('human').style.display='none';
+            document.getElementById('man').style.display='none';
           }
           function rideClick(){
             let b= document.querySelector('.tab');
             b.style.backgroundImage='url(image/uberride.jpg)'
             b.style.backgroundRepeat='no-repeat'
             b.style.backgroundSize='100%'
+            document.getElementById('human').style.display='block';
+            document.getElementById('man').style.display='none';
+            document.getElementById('woman').style.display='none';
           }
 
 

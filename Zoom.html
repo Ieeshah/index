@@ -51,8 +51,8 @@
       padding-left: 10%;
     }
 
-    .flex button {
-      display: block;
+    .bvr button {
+      /* display: block; */
       margin: 20px;
       border-radius: 30px;
       padding: 6px 17px 6px 17px;
@@ -62,7 +62,7 @@
       font-size: 20px;
     }
 
-    .flex {
+    .bvr {
       background-color: #00031F;
       color: white;
       padding: 28px;
@@ -72,13 +72,14 @@
 
     }
 
-    .flex h1 {
+    .bvr h1 {
       width: 200px;
       font-size: 25px;
     }
 
     .unify {
-      width: 450px;
+      width: 30vw;
+      margin: auto;
 
     }
 
@@ -89,6 +90,10 @@
 
 
 
+    }
+    .twine{
+      display: grid;
+      grid-template-columns: 0.5fr 2fr;
     }
 
     .inified {
@@ -467,7 +472,9 @@
       box-shadow: 1px 2px 1px 1px #E8EFFF;
       color: #0050F0;
     }
-
+    .fled{
+      display: block;
+    }
      .solution {
       display: none;}
     
@@ -485,6 +492,10 @@
             overflow: auto;
             scroll-behavior: smooth;
       /* overflow: scroll; */
+    }
+    .vcol{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
     }
 
     #create::after {
@@ -512,8 +523,19 @@
       *{
         margin: 0%;
       }
-      .solution {
+      .twine{
+        display: block;
+      }
+      .imggg img{
+        width: 45vw !important;
+      }
+      .unify{
+        width: 50vw !important;
+      }
+
+      .inified{
         display: grid;
+        grid-template-columns: 1fr 1fr;
       }
 
       .zooooom {
@@ -523,50 +545,53 @@
 
 
       }
-
-      .solution button {
-
-        margin: 10px;
-        border-radius: 30px;
-        padding: 6px 17px 6px 17px;
-        border: 1px #71A0EC solid;
-        background-color: #00031F;
-        color: white;
-        font-size: 20px;
-
+      .solution{
+        display: inline;
+        overflow: auto;
+        width: 200px;
+        background-color: yellow;
       }
+       .solution button{
+         display: flex;
+         /* width: 70px !important; */
+         
+      /* margin: 20px; */
+      border-radius: 30px;
+      padding: 6px 17px 6px 17px;
+      border: 1px #71A0EC solid;
+      background-color: #00031F;
+      color: white;
+      font-size: 20px;
+     
+       }
 
-      .solution {
-        background-color: #00031F;
-        color: white;
-        padding: 28px;
-        padding-bottom: 60px;
-        width: 100%;
-
-      }
-
-      /* .button{
-          width: 900px;
-          overflow-x: scroll;
-        } */
-
-      .solution h2 {
-        width: 100%;
-        font-size: 25px;
-      }
-
-      .flex {
+      .fled {
         display: none;
       }
 
       .imggg {
         text-align: center;
       }
+      .vcol{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+      }
 
       .unify {
-        width: 100%;
-        margin: auto;
+      max-width: 100% !important;
+      min-width: 100% !important;
+      margin: 0% !important;
       }
+      .grid li {
+
+display:flex !important;
+margin-bottom: 22px;
+width: 100%;
+vertical-align: text-top;
+overflow: auto;
+
+
+}
 
       .product {
         height: auto !important;
@@ -762,37 +787,40 @@
   </div>
 
    <div class="container-fluid">
-    <div class="row">
+    <div class="twine">
       <div class="col-lg-3">
         <div class="zooooom">
           <img src="image/zooooom.png" alt="" width="90%">
         </div>
-        <div class="flex" style="padding-bottom: 100px;">
-          <h1>Flexible solutions for modern team collaboration</h1>
+        <div class="bvr" style="padding-bottom: 100px;">
+          <div class="fled">
+            <h1>Flexible solutions for modern team collaboration</h1>
           <button style="background-color: #1C2A52;" onclick="one()" id="zone">Zoom One</button>
           <button onclick="spaces()" id="spa">Spaces</button>
           <button onclick="events()" id="eve">Events</button>
           <button onclick="center()" id="cen">Contact Center</button>
           <button onclick="develop()" id="dev">Developers</button>
+          </div>
         </div>
-        <div class="solution" style="padding-bottom: 100px;">
-          <h1>Flexible solutions for modern team collaboration</h1>
-          <div class="button">
-            <button style="background-color: #1C2A52;" onclick="one()" id="zone">Zoom One</button>
+        <div class="bvr" style="padding-bottom: 100px;">
+          <div class="solution">
+            <h1>Flexible solutions for modern team collaboration</h1>
+          <button style="background-color: #1C2A52;" onclick="one()" id="zone">Zoom One</button>
             <button onclick="spaces()" id="spa">Spaces</button>
             <button onclick="events()" id="eve">Events</button>
             <button onclick="center()" id="cen">Contact Center</button>
             <button onclick="develop()" id="dev">Developers</button>
           </div>
+          
         </div>
       </div>
-      <div class="col overf">
-        <div class="col-md-12 inified" style="padding-top: 12%; padding-bottom: 20px;" id="commute">
-          <div class="row">
-            <div class="col-5 imggg">
-              <img src="image/img1.jpg" alt="#" width="350" style="padding: 10px;">
+      <div class="overf">
+        <div class="cola inified" style="padding-top: 12%; padding-bottom: 20px;" id="commute">
+          <div class="vcol">
+            <div class="imggg">
+              <img src="image/img1.jpg" alt="#" style="padding: 10px; width:30vw;">
             </div>
-            <div class="col-4 unify">
+            <div class="unify">
               <h2>Unified communication and collaboration platform</h2>
               <p>Make meaningful connections with meetings, team chat, whiteboard, phone, and more in one
                 offering.</p>
@@ -826,12 +854,12 @@
 
           </div>
         </div>
-        <div class="col-md-12 inified" style="padding-top: 12%; padding-bottom: 20px;" id="collab">
-          <div class="row gx-5">
-            <div class="col-5 imggg">
-              <img src="image/zoom4a.jpg" alt="#" width="350" style="padding: 10px;">
+        <div class="cola inified" style="padding-top: 12%; padding-bottom: 20px;" id="collab">
+          <div class="vcol">
+            <div class="imggg">
+              <img src="image/zoom4a.jpg" alt="#" style="padding: 10px; width:30vw;">
             </div>
-            <div class="col-4 unify" style="padding: 50px;">
+            <div class="unify" style="padding: 50px;">
               <h2>Workspaces reimagined</h2>
               <p>Innovative room solutions for every meeting space.</p>
 
@@ -853,12 +881,12 @@
 
           </div>
         </div>
-        <div class="col-md-12 inified" style="padding-top: 12%; padding-bottom: 20px;" id="events">
-          <div class="row gx-5">
-            <div class="col-5 imggg">
-              <img src="image/zoom3a.jpg" alt="#" width="350" style="padding: 10px;">
+        <div class="cola inified" style="padding-top: 12%; padding-bottom: 20px;" id="events">
+          <div class="vcol">
+            <div class="imggg">
+              <img src="image/zoom3a.jpg" alt="#" style="padding: 10px; width:30vw;">
             </div>
-            <div class="col-4 unify" style="padding: 50px;">
+            <div class=" unify" style="padding: 50px;">
               <h2>Elevated experiences</h2>
               <p>Solutions to host impactful virtual and hybrid experiences.</p>
 
@@ -879,12 +907,12 @@
 
           </div>
         </div>
-        <div class="col-md-12 inified" style="padding-top: 12%; padding-bottom: 20px;" id="center">
-          <div class="row gx-5">
-            <div class="col-5 imggg">
-              <img src="image/zoom2a.jpg" alt="#" width="350" style="padding: 10px;">
+        <div class="cola inified" style="padding-top: 12%; padding-bottom: 20px;" id="center">
+          <div class="vcol">
+            <div class="imggg">
+              <img src="image/zoom2a.jpg" alt="#" style="padding: 10px;width:30vw;">
             </div>
-            <div class="col-4 unify" style="padding: 50px;">
+            <div class="unify" style="padding: 50px;">
               <h2>Modern customer support</h2>
               <p>An omnichannel cloud contact center solution optimized for video.</p>
 
@@ -902,12 +930,12 @@
 
           </div>
         </div>
-        <div class="col-md-12 inified" style="padding-top: 12%; padding-bottom: 20px;" id="develop">
-          <div class="row gx-5">
-            <div class="col-5 imggg">
-              <img src="image/zoom1.jpg" alt="#" width="350" style="padding: 10px;">
+        <div class="cola inified" style="padding-top: 12%; padding-bottom: 20px;" id="develop">
+          <div class="vcol">
+            <div class="imggg">
+              <img src="image/zoom1.jpg" alt="#" style="padding: 10px; width:30vw;">
             </div>
-            <div class="col-4 unify" style="padding: 50px;">
+            <div class="unify" style="padding: 50px;">
               <h2 style="align-items: end;">Zoom for builders</h2>
               <p>Create innovative apps and integrations using Zoom's platform</p>
 

@@ -106,16 +106,16 @@ span{
 }
 .exhibit{
     background-color: white;
-    width: 90%;
-    padding: 2px;
+    /* width: 50%; */
+    /* padding: 2px; */
     border: 4px grey solid;
-    margin-left: 10px;
+    /* margin-left: 10px; */
 
 }
 .exhibit h2{
     font-size: 32px;
     color: #006633;
-    margin: auto;
+    /* margin: auto; */
     width: 80%;
     
     padding-top: 6%;
@@ -123,7 +123,7 @@ span{
 .exhibit p{
     font-size: 15px;
     color: #1C1C1C;
-    margin: auto;
+    /* margin: auto; */
     width: 80%;
     
 }
@@ -140,7 +140,7 @@ span{
 .delegates{
     background-color: white;
     border: 4px grey solid;
-    margin-left: 10px;
+    /* margin-left: 10px; */
 }
 .delegates h2{
     font-size: 32px;
@@ -167,19 +167,19 @@ span{
 .visitors{
     background-color: white;
     border: 4px grey solid;
-    margin-left: 10px;
+    /* margin-left: 10px; */
 }
 .visitors h2{
     font-size: 32px;
     color: #006633;
-    margin: auto;
+    /* margin: auto; */
     width: 80%;
     padding-top: 6%;
 }
 .visitors p{
     font-size: 15px;
     color: #1C1C1C;
-    margin: auto;
+    /* margin: auto; */
     width: 80%;
 }
 .visitors button{
