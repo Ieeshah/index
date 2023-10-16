@@ -53,13 +53,17 @@
 
     .bvr button {
       /* display: block; */
+     
+
+
       margin: 20px;
-      border-radius: 30px;
-      padding: 6px 17px 6px 17px;
-      border: 1px #71A0EC solid;
-      background-color: #00031F;
-      color: white;
-      font-size: 20px;
+            border-radius: 20px;
+            padding: 6px 17px 6px 17px;
+            border: 1px #71A0EC solid;
+            background-color: #00031F;
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
     }
 
     .bvr {
@@ -547,28 +551,32 @@
       }
       .solution{
         display: inline;
+        overflow: auto !important;
+        margin: 0vw !important;
+
+      }
+      .bvr{
+        width: 100vw !important;
+      }
+      .bline{
+        display: flex;
         overflow: auto;
-        width: 200px;
-        background-color: yellow;
       }
        .solution button{
-         display: flex;
-         /* width: 70px !important; */
-         
-      /* margin: 20px; */
-      border-radius: 30px;
-      padding: 6px 17px 6px 17px;
-      border: 1px #71A0EC solid;
-      background-color: #00031F;
-      color: white;
-      font-size: 20px;
+        display: block;
+            
+      /* margin: 10vw !important; */
+     /* overflow: scroll; */
      
        }
 
       .fled {
         display: none;
       }
-
+      .bvr h1 {
+      width: 100%;
+      font-size: 9vw;
+    }
       .imggg {
         text-align: center;
       }
@@ -792,9 +800,10 @@ overflow: auto;
         <div class="zooooom">
           <img src="image/zooooom.png" alt="" width="90%">
         </div>
+        <div class="fled">
         <div class="bvr" style="padding-bottom: 100px;">
-          <div class="fled">
-            <h1>Flexible solutions for modern team collaboration</h1>
+          
+           <h1>Flexible solutions for modern team collaboration</h1>
           <button style="background-color: #1C2A52;" onclick="one()" id="zone">Zoom One</button>
           <button onclick="spaces()" id="spa">Spaces</button>
           <button onclick="events()" id="eve">Events</button>
@@ -804,12 +813,14 @@ overflow: auto;
         </div>
         <div class="bvr" style="padding-bottom: 100px;">
           <div class="solution">
-            <h1>Flexible solutions for modern team collaboration</h1>
-          <button style="background-color: #1C2A52;" onclick="one()" id="zone">Zoom One</button>
+              <h1>Flexible solutions for modern team collaboration</h1>
+              <div class="bline">
+            <button style="background-color: #1C2A52;" onclick="one()" id="zone">Zoom One</button>
             <button onclick="spaces()" id="spa">Spaces</button>
             <button onclick="events()" id="eve">Events</button>
             <button onclick="center()" id="cen">Contact Center</button>
             <button onclick="develop()" id="dev">Developers</button>
+            </div>
           </div>
           
         </div>
